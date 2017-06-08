@@ -1,0 +1,675 @@
+id;id_work;year;type;lang;title
+1;1;1987;NA;P;Pacote Gráfico GKS: Uma Proposta de Implementação
+2;2;1987;NA;P;O Modelo Geométrico do N-MOS/UFRGS
+3;3;1987;NA;P;GERPAC – Um SGBD para PAC
+4;4;1987;NA;P;Integração de Modelos Relacionais em Sistemas Geográficos de Informação
+5;5;1987;NA;P;O Projeto Engenharia de Dados
+6;6;1987;NA;P;Uma Linguagem para um Gerenciador de Banco de Dados Relacional em Micro-computador
+7;7;1987;NA;P;Integrando Propriedades Estáticas e Dinâmicas no Esquemas Conceitual
+8;8;1987;NA;P;Um Suporte para Sistemas de Gerência de Banco de Dados Baseado em Modelos de Entidades
+9;9;1987;NA;P;Projeto Integrado para Banco de Dados Dedutivo
+10;10;1987;NA;P;Uma Experiência de Prototipação em PROLOG para Sistemas de Bancos de Dados
+11;11;1987;NA;P;Implementando uma Máquina de Inferências Acoplada a Banco de Dados Extensionais
+12;12;1987;NA;P;Aspectos Dinâmicos do Modelo Temporal Hierárquico – THM
+13;13;1987;NA;P;Um Modelo para Visões-objeto
+14;14;1987;NA;P;Síntese de Cenas Através do Método \Ray-Tracing\
+15;15;1987;NA;P;Uso de Técnicas de Processamento de Imagens na Determinação de Ventos
+16;16;1987;NA;P;Modelamento Digital de Terreno no Sistema Geográfico de Informações do INPE
+17;17;1987;NA;P;Um Sistema de Modelagem Através da Técnica por Varredura (\Sweep Representation\)
+18;18;1987;NA;P;O Consultor CHRIS
+19;19;1987;NA;P;Banco de Dados para CAD de Sistemas Digitais
+20;20;1987;NA;P;Banco de Dados Não Convencionais: Uma Proposta para a Microeletrônica
+21;21;1987;NA;P;Proposta de um Subsistema de Restrições para um Gerenciador de Banco de Dados
+22;22;1990;NA;E;Query Processing in the EDS Parallel Database System
+24;24;1990;NA;P;Ambientes para Sistemas de Informação
+25;25;1990;NA;E;A Rule Language Compiler for an SQL Database Server
+26;26;1990;NA;P;Um Sistem Inteligente para Integração de Esquemas de Banco de Dados
+27;27;1990;NA;P;Uma Ferramenta de Apoio a Projeto Lógico em Banco de Dados
+28;28;1990;NA;P;Considerações sobre o Signo: Um Sistema Gerenciador de Objetos
+29;29;1990;NA;P;Modelagem Conceitual Orientada a Objetos para Aplicações não Convencionais em Bancos de Dados
+30;30;1990;NA;P;Estudo Formal da Estrutura de um Modelo de Dados Orientado a Objetos
+31;31;1990;NA;E;A Database Implementation for Image Storage System
+32;32;1990;NA;P;Uniformização de Interfaces de Comunicação em Ambiente Multimídia
+33;33;1990;NA;E;Specifying Updatable Views in the Object-Oriented Model
+34;34;1990;NA;P;Uma Proposta de Modelagem Integrada de Sistemas de Informações
+35;35;1990;NA;P;Implementação de um Gerenciador de Identificadores de Objetos para o GEO/MRO
+36;36;1990;NA;P;Um Gerenciador de Transações no Contexto do GERPAC/UNICOSMOS
+37;37;1990;NA;P;Uma Abordagem Heurística para a Otimização Semântica de Consultas a Banco de Dados Dedutivos
+38;38;1990;NA;P;Um Protótipo de Otimizador de Consultas a Banco de Dados Relacionais com Base de Conhecimento Multinível
+39;39;1988;NA;P;Proposta de uma Linguagem de Restrição de Dados
+40;40;1988;NA;P;Uma Ferramenta para a Definição e Verificação de Regras de Integridade em Bancos de Dados
+41;41;1988;NA;P;Um Protótipo de Ferramenta para Projeto/Reprojeto de Banco de Dados
+42;42;1988;NA;P;Processamento de Consultas Recursivas: Uma Discussão
+43;43;1988;NA;P;Mapeamento das Operações Conceituais do Modelo THM para Operações Executáveis
+44;44;1988;NA;P;GUIMEL2: Um SGBDR para Microcomputadores
+45;45;1988;NA;P;Atualização de Agregados em Visões
+46;46;1988;NA;P;Projeto e Implementação de Esquemas Externos Baseados no Modelo de Entidades e Relacionamentos
+47;47;1988;NA;P;GERME - Gerenciador de Projetos para Microeletrônica
+48;48;1988;NA;P;Sistemas de Informações Cartográficas
+49;49;1988;NA;P;DESCONT: Um Sistema para Desenvolvimento do Esquema Conceitual Baseado em Frames
+50;50;1988;NA;P;Sistemas para Gerenciamento de Bases de Conhecimento: Uma Evolução de SGBD
+51;51;1988;NA;P;Ferramenta de Projeto e Prototipação de um Sistema de Banco de Dados Inteligente
+52;52;1988;NA;P;Uma Interface Orientada a Objetos para a Definição de Gatilhos em um SGBD Relacional
+53;53;1988;NA;P;Interface Orientada a Objetos para um Ambiente de CAD de Sistemas Digitais
+54;54;1988;NA;P;Um Modelo de Representação de Objetos
+55;55;1988;NA;P;Uma Metodologia Centrada em Especificação Formal em Lógica para o Projeto de Sistemas de Banco de Dados
+56;56;1988;NA;P;Uma Interface de um Modelo E-R Estendido para BD's Relacionais
+57;57;1988;NA;P;COPPEREL-PC: A Versão do SGBD COPPEREL para Microcomputadores Tipo PC
+58;58;1988;NA;P;Diretório de Bases de Dados
+59;59;1988;NA;E;Base de Datos Orientadas a Objetos para Aplicaciones Educativas
+60;60;1988;NA;P;Uma Experiência na Modelagem de um Banco de Conhecimento
+61;61;1988;NA;P;Uma Análise de Banco de Dados Orientados para Objetos
+62;62;1986;NA;P;O Banco de Dados Geográfico do INPE
+63;63;1986;NA;P;Um Método para Projeto de Arquivos para o Gerenciador de Bancos de Dados Image/3000
+64;64;1986;NA;P;Aplicação da Técnica de Bloqueio no Controle de Concorrência de um SGBD Centralizado
+65;65;1986;NA;P;Um Esquema de Reconstrução para Banco de Dados
+66;66;1986;NA;P;Banco de Dados Geográfico: Uma Proposta de Especificação
+67;67;1986;NA;P;Um Gerenciador de Banco de Dados para Aplicações em Circuitos Integrados
+68;68;1986;NA;P;Uma Experiência de Prototipação no Ensino de Implementação de SGBDs
+69;75;1991;NA;P;GEOCOPPE: Um SGBD Espacial
+70;76;1991;NA;P;Suporte à Cooperação em Ambiente de Projeto Assistido por Computador
+71;77;1991;NA;P;Um Sistema de Tratamento de Restrições para Aplicações de Projeto no Contexto GERPAC/UniCOSMOS
+72;78;1991;NA;P;Modificação de Comandos como Instrumento de Cooperatividade
+73;79;1991;NA;P;Um Sistema de Interface Cooperativo para Modelagem em Banco de Dados
+74;80;1991;NA;P;Um Ambiente para Descrição e Execução de Aplicações de Bancos de Dados Orientados a Objetos para Documentos
+75;81;1991;NA;P;Uma Metodologia para a Especificação dos Aspectos Dinâmicos de um Sistema de Informação
+76;82;1991;NA;P;GEO: Um Sistema de Gerenciamento de Bases de Dados Orientado a Objetos Estado Atual de Desenvolvimento e Implementação
+77;83;1991;NA;P;Gerenciamento Físico de Objetos num Sistema de Banco de Dados Orientado a Objetos
+78;84;1991;NA;P;GET: Um Gerenciador Dinâmico de Tipos de Dados
+79;85;1991;NA;P;Transformação de um Banco de Dados Orientado a Objetos em um BD Ativo
+80;86;1991;NA;P;Um Sistema de Navegação (BROWSER) para o SGBD DAMOKLES
+81;87;1991;NA;P;Benchmark de Sistemas de Bancos de Dados Especializado para as Aplicações do Usuário
+82;88;1991;NA;P;Uma Experiência na Implementação de Operadores de Álgebra Relacional no Computador Paralelo NCP I
+83;89;1991;NA;P;B2FM: Um Protocolo de Bloqueio em Duas Fases para Transações Multiníveis
+84;90;1991;NA;P;OPUS: Implementando um Otimizador Extensível para o OMS-EITIS
+85;96;1992;NA;P;Armazenagem e Gerenciamento de Informações Temporais em um Modelo de Dados Orientado a Objetos
+86;98;1992;NA;P;Contribuição do PROTOGEO ao Projeto de SGBDOO GEOTABA
+87;99;1992;NA;P;Estendendo um Modelo Orientado a Objetos para Expressão de Conhecimento Dedutivo e Comportamental
+88;100;1992;NA;P;Estudo Formal das Características de Dedução e Comportamento em um Modelo de Dados Orientado a Objetos
+89;101;1992;NA;P;Um Sistema de Regras de Produção Fortemente Acopladas a Bancos de Dados
+90;102;1995;NA;E;Cooperative Transactions: a Taxonomy and a New Model
+91;103;1995;NA;P;Um modelo de transação para Sistemas de Gerência de Banco de Dados Heterogênios
+92;104;1995;NA;E;Performance Study of Distributed 02 Databases using 007 Benchmark
+93;105;1995;NA;P;Armazenamento Distribuído de Mapas Vetoriais em Sistemas de Geoprocessamento
+94;106;1995;NA;P;LinGeo - Uma Linguagem de Consulta Geográfica
+95;107;1995;NA;E;Operational Specification for Dynamic Functional Dependencies
+96;108;1995;NA;E;A System for Office Task Organisation: Architecture
+97;109;1995;NA;P;MODOC - Uma Metodologia para Modelagem Integrada de Documentos
+98;110;1995;NA;P;Técnica para Obtenção de Esquema E-R a partir de Texto Originado na Análise de Requisitos
+99;111;1995;NA;P;Generalização e Agregação de Atividades: Conceitos Clássicos Aplicados à Representação da Dinâmica de Aplicações de Escritórios
+100;112;1995;NA;E;Update Transactions for Deductive Databases with Update Rules
+101;113;1995;NA;P;Tratamento de Heterogeneidade em Esquemas Conveituais Orientados a Objetos
+102;114;1995;NA;P;Visões e Transações em Banco de Dados OO
+103;115;1995;NA;E;Poker - Petri Net Oriented Knowledge Engineering Research
+104;116;1995;NA;P;Incorporando Objetos Multimídia em Banco de Dados
+105;117;1995;NA;P;Uso de Versões na Garantia de Consistência em Ambientes Mistos de Projeto e Orientação
+106;118;1995;NA;P;Definição e Manipulação de Configurações em Banco de Dados Orientados a Objetos
+107;119;1995;NA;P;SABIA - Sistema de Acesso a Bases de Informações Estatísticas
+108;120;1995;NA;E;F-G a Fuzzy Algebra for Approximate Answering in Databases
+109;121;1995;NA;P;Uma Discussão sobre o Mapeamento Relacional Correto de Estruturas Complexas de Especialização em Esquemas Entidade-Relacionamento
+110;122;1995;NA;P;Uma Abordagem para a implementação de um Modelo Temporal Orientado a Objetos usando SGBD's Relacionais
+111;123;1995;NA;E;Performance Study of Method Execution Alternatives in a Distributed Oject Database System
+112;124;1992;NA;P;FeST - Uma Ferramenta para Projeto Conceitual de Banco de Dados
+113;125;1992;NA;P;Projeto OPUS: Evoluindo para Plataformas de SGBDOO
+114;126;1992;NA;P;Detectando Ambiguidade em Consultas Formais
+115;127;1992;NA;E;The Necessity and Contours of a Catalog Standard for RM/V2
+116;128;1992;NA;E;A Declarative Conceptual Modelling Language
+117;129;1992;NA;P;Tratamento de Restrições do Modelo Orientado a Objetos
+118;130;1992;NA;P;VITAO - Visão Integrada Automatizada Orientada a Objetos
+119;131;1992;NA;E;A Model for Cooperative Transactions
+120;132;1992;NA;P;Gerenciando Projeto e Cooperação Através de Passos de Projetos e Características de Objetos
+121;133;1992;NA;E;Versions and Histories in Object-Oriented Applications
+122;134;1992;NA;P;O Esquema de Versões do Modelo Temporal de Objetos (TOM)
+123;135;1992;NA;P;Tratamento de Versões em Documentos Multimídia
+124;136;1992;NA;P;POP: Pascal Orientado a Objetos Persistentes
+125;137;1992;NA;P;LBF+: Uma Linguagem de Programação de Banco de Dados
+126;138;1992;NA;P;AQUARIUS: Uma Linguagem Orientada a Objetos de Nova Geração
+127;139;1992;NA;E;Using an Object Manager in the Design of an Image Database System
+128;140;1992;NA;E;IQL: An Integrated Graphical User Interface for Relational Queries with Genericity
+129;141;1992;NA;P;Geración de Aplicaciones Multi-Lenguajes e Interoperabilidad: Un Punto de Partida
+130;142;1992;NA;P;Uma Abordagem Orientada a Objetos Adaptada à Concepção de Aplicações em Banco de Dados
+131;143;1992;NA;P;Uma Abordagem para a Modelagem de Tarefas de Escritórios Usando Redes de Petri
+136;153;1993;NA;P;Navegação e Consulta em Bancos de Dados Orientados a Objetos
+137;154;1993;NA;P;Ferramenta de Auxílio para Tradução de Linguagens de Especificação no Desenvolvimento de Sistemas de Banco de Dados
+138;155;1993;NA;P;Uma Álgebra para o SGBC KRISYS
+139;156;1993;NA;E;Maintaining Integrity Constraints Across Versions in a DataBase
+140;157;1993;NA;P;Gerente de Configurações para o Ambiente STAR
+141;158;1993;NA;P;Evolução de Esquemas Utilizando Versões em Banco de Dados Orientados a Objetos
+142;159;1993;NA;P;Linguagem de Métodos para um Ambiente de Banco de Dados Orientado a Objetos
+143;160;1993;NA;P;Uma Álgebra para Suportar Linguagens de SGBDs Orientados a Objetos
+144;161;1993;NA;P;Consultas tipo SQL como Meio de Auxílio a Busca de Informações em um Banco de Documentos
+145;162;1993;NA;P;S-SQL uma Interface Semântica
+146;163;1993;NA;P;Relacionamentos em Modelos de Dados Orientados a Objetos
+147;164;1993;NA;E;Benchmarking Object - Based Constructs
+148;165;1993;NA;E;Elementos Formales para Bases de Datos Orientadas a Objetos
+149;166;1989;NA;P;Implementação de um Banco de Dados Não Convencional
+150;167;1989;NA;P;Um Método de Coleta e Documentação de Dados para a Modelagem de Sistemas
+151;168;1989;NA;P;Modelo E: Formalização com Redes de Petri
+152;169;1989;NA;P;Auto-relacionamentos de Grau Variável e Sua Implementação
+153;170;1989;NA;P;Uma Experiência em Modelar Banco de Dados Orientado a Objetos
+154;171;1989;NA;P;Extensões COPPEREL Para Aplicações Não Convencionais
+155;172;1989;NA;P;GOLGO - Gerenciador Orientado a Objetos
+156;173;1989;NA;P;OMS-EITIS: Um Sistema de Gerência de Objetos
+157;174;1989;NA;P;Um Ambiente para Desenvolvimento de Protóripos de Bancos de Dados Dedutivos Temporais
+158;175;1989;NA;P;Um Gerador de Planos para Consultas Não Recursivas em DATALOG
+159;176;1989;NA;P;Especificação Formal do Modelo Relacionando Usando MET00
+160;177;1989;NA;P;Um Modelo para Projeto Físico de Bancos de Dados Relacionais
+161;178;1989;NA;E;A Framework for an Efficient Processing of Knowledge Bases on Secondary Storage
+162;179;1989;NA;P;O Nível Físico Orientado a Objetos de um SGBD Multi-midia
+163;180;1989;NA;P;Restrições de Integridade no SGBDR DBGRIQUEL - II
+164;181;1989;NA;P;Trivialização de Dependências de Inclusão em Esquemas Conceituais Relacionais
+165;182;1989;NA;P;Preprocessamento de Atualizações em Bancos de Dados Relacionais
+166;183;1989;NA;P;Modelagem da Semântica e Dinâmica em Formulários Eletrônicos
+167;184;1989;NA;P;Subprojeto em Base de Dados/Objeto/Conhecimento no Ambito do Projeto TABA
+168;185;1989;NA;P;Análise de Desempenho de Bancos de Dados utilizando uma Metodologia Baseada em Benchmark Especializado
+169;186;1996;NA;P;Aspectos de Interoperabilidade na Arquitetura Heterogênea HIMPAR
+170;187;1996;NA;E;An Aproach to Multi-User KBMS in Workstation/Server Enviroments
+171;188;1996;NA;E;An Efficient Strategy for Dynamic Knowledge Bases
+172;189;1996;NA;E;An Aproach to Knowledge-Discovery for Dealing with Empty Queries in Relational Database Systems
+173;190;1996;NA;P;Proposta de Extensões a Linguagem SQL para Suportar Gerenciamento de Modelos
+174;191;1996;NA;P;Uma Interface Cooperativa para Consultas a Banco de Dados Relacionais
+175;192;1996;NA;P;Uma Linguagem de Definição e Recuperação de Imagens Baseada em Conteúdo em uma Base de Dados Orientada a Objetos
+176;193;1996;NA;P;Controle de Compartilhamento e acesso em GBDOO Baseado em Composição de Objetos
+177;194;1996;NA;E;Design and Implementation of Distributed Databases Using Estelle
+178;195;1996;NA;P;Map-Tree: Um Método de Acesso para Mapas Longos
+179;196;1996;NA;E;Using Parallel B+-trees as a Pratical Alternative to the Classic T-tree
+180;197;1996;NA;P;Autoria de Aplicações Hipermídia Utilizando um Banco de Dados Orientado a Objetos
+181;198;1996;NA;P;Aspectos de Implementação de Objetos-Vídeo sobre um SGBD Relacional-Objeto
+182;199;1996;NA;P;Especificação de um Servidor de Objetos MHEG-5 para Apluicações Multimídia
+183;200;1996;NA;P;TFS: Um Sistema de Gerenciamento de Transações com Reservas Condicionais
+184;201;1996;NA;E;Parallelizing Object-Oriented Database Transactions
+185;202;1993;NA;E;Combining Hypermedia and Databases - The Portinari Project
+186;203;1996;NA;P;Uso Integrado de Reconhecimento e Geração de Planos no Contexto de Banco de Dados
+187;204;1993;NA;P;Tratamento de Dados Multimidia num Ambiente de Bancos de Dados Orientados a Objetos
+188;205;1996;NA;P;Combinando Banco de Dados Ativos e Sistemas de Informação Geográfica para Manutenção de Restrições Topológicas
+189;206;1993;NA;E;Cooperative Enviroments for Geographic Databases a Prescriptive Analysis
+190;207;1996;NA;E;Checking Bonded History Temporal Constraints using a Natural History Encoding
+191;208;1993;NA;P;Tratamento de Múltiplos Aspectos de Projetos Através de um Gerenciador de Esquemas de Dados para Modelos Orientados a Objetos
+192;209;1993;NA;P;Representação Interna de um BD Dedutivo para Suportar o Modelo Temporal F-ORM
+193;210;1996;NA;E;On the Semantics of 'Current-Time' in Temporal Databases
+194;211;1993;NA;P;Uma Metodologia para Projeto de Banco de Dados Temporal Orientado a Objetos
+195;212;1993;NA;P;Implementando um Gerente de Projeto e Cooperação sobre o Sistema de Base de Conhecimento Krisys
+196;213;1993;NA;E;Integration of Persistent and Relational Database Objects in Coral
+197;214;1993;NA;E;Parallelism in an Object-Oriented Database Programming Language
+198;215;1993;NA;E;TOM-RULES A Uniform and Flexible Approach to Events Constraints and Deriived
+199;216;1993;NA;P;Heros um Sistema de Bancos de Dados Heterogeneos Orientado a Objetos
+200;217;1993;NA;E;Object Oriented Databases and the KBZ Approach
+201;218;1993;NA;P;Quick-Germen: Um Gerador de Programas para Manutenção de Bases de Dados Voltado para o Modelo Entidade-Relacionamento
+202;219;1993;NA;P;ExtratER - Extração Semi-automática de Esquemas E-R a Partir de Textos
+203;220;1993;NA;P;Projeto GDocE - Gerência de Documentos Estruturados e Multimídia
+204;221;1993;NA;P;TOM RULES - Um Sistema de Regras Ativas e Restrições de Integridade em um Ambiente Orientado a Objetos
+205;222;1994;NA;P;Um Ambiente Gráfico de Consulta a um BD Temporal OO
+206;223;1994;NA;P;Incorporação do Tempo em um SGBD Orientado a Objetos
+207;224;1994;NA;E;Modeling and Design of Events and Rules in Databases
+208;225;1989;NA;P;Avaliação de Rré-Condições das Atividades de Escritório
+209;226;1994;NA;E;A Centralized Communication Approach for the Parallel Shared-Nothing Evaluation of Datalog
+210;227;1994;NA;E;Refinement of Database Process
+211;228;1994;NA;P;Ferramentas de Auxílio para o Desenvolvimento de Projeto de Banco de Dados
+212;229;1994;NA;P;Um Modelo para Representação de Atividades em Aplicações de Escritório
+213;230;1994;NA;P;Uma Abordagem Orientada a Objetos para o Projeto Lógico de Bancos de Dados Relacionais
+214;231;1994;NA;P;Modelo Orientado a Objetos para Modelagem de Sistemas e Banco de Dados em Tempo-Real
+215;232;1994;NA;P;Modelo de Dados Heros - Sistema de Banco de Dados Heterogêneos Orientado a Objetos
+216;233;1994;NA;P;Formalizando a Evolução de Esquemas em SGBDs Orientados a Objetos
+217;234;1994;NA;P;O Papel da Abstração de Instanciação em um Meta-modelo de Abstrações para BDOO
+218;235;1994;NA;E;Heterogeneity in Object With Roles Conceptual Modelling
+219;236;1994;NA;P;Um Modelo Ativo de Representação de Conhecimentos Orientado a Objetos
+220;237;1994;NA;E;Adding Conceptual Constructs to Support Distribution in an Object Oriented Model
+221;238;1994;NA;P;Processo de Transformação de Consultas para um Sistema de Gerenciamento de Banco de Dados Orientado para Objetos
+222;239;1994;NA;P;Explorando o Processamento de Consultas no Servidor de Objetos GOA
+223;240;1994;NA;P;Uma Linguagem Visual de Consulta para o Ambiente STAR
+224;241;1994;NA;P;Sobre a Manutenção da Consistência de Representações Relacionais Otimizadas de Esquemas ER
+225;242;1994;NA;P;Uma Modelagem Orientada a Objetos para Aplicações Geográficas
+226;243;1994;NA;E;A Family of Storage Methods for Geographic Data
+227;244;1994;NA;P;C++ Persistente Suportando Vistas de Grafos
+228;245;1994;NA;P;OHypA: Um Modelo de Documentos Estruturados Multimídia
+229;247;1996;NA;P;SIRIUS - Modelo de Dados Orientado a Objetos e Baseado em Abstrações de Dados
+230;248;1996;NA;E;An Architecture for the Logical Design of OO Databases
+231;249;1996;NA;P;Definindo Transações Corretas de Atualizações de Visões na Presença de Efeitos Colaterais
+232;250;1996;NA;P;Um Modelo de Transações Orientado a Qualidade de Serviço Baseado na Arquitetura Multi-Agente
+233;251;1996;NA;E;Formal Method for Document Cloustering Based on Their Semantics and Its Use in Information
+234;252;1997;NA;P;Um Modelo de Transações Cooperativas Integrado a um Modelo de Versões
+235;253;1997;NA;P;Versões em Banco de Dados para SIGs
+236;254;1997;NA;E;Sample Reconciliation of Transactions to Increase Concurrency in Historical Objectbases
+237;255;1997;NA;P;SES Sistema de Extração Semântica de Informações
+238;256;1997;NA;P;Uma Interface Baseada em Campos Estrelares para Consultas a Bases de Dados Textuais
+239;257;1997;NA;E;A Query Language for Retrieving Information in Eletronic Mail Enviroments
+240;258;1997;NA;P;Extensão de um Banco de Dados de Objetos MHEG-5 para Suportar Busca por Conteúdo
+241;259;1997;NA;P;Ordenação de Respostas Aproximadas Baseada no Modelo AutoClass
+242;260;1997;NA;E;Querying an Object-Oriented Database Using CPL
+243;261;1997;NA;P;Realização Eficiente de Junções Espaciais Utilizando Hash-Join
+244;262;1997;NA;P;Projeto / Reprojeto de Banco de Dados Relacionais: a Ferramenta DB-Tool
+245;263;1997;NA;E;Applying Delegation to OO Logical Design: Towards Reuse in OO Databases
+246;264;1997;NA;E;Towards a Formal Object-Oriented Data Modeling: The KBZ+ Approach
+247;265;1997;NA;E;Schema Update and Restructuring
+248;266;1997;NA;P;Uma ferramenta de Apoio a Formulação de Consultas a Base de Dados na Área da Saúde
+249;267;1997;NA;P;Um Modelo para Recuperação de Informação Especializada Aplicado a Bases de Dados Médicas Semi-Estruturadas
+250;268;1997;NA;P;Paralelismo em SGBSOO com Memória Distribuída: Uma IMplementação no Pargoa
+251;269;1997;NA;P;GOA++: Tecnologia Implementação e Extensões aos Serviços de Gerência de Objetos
+252;270;1997;NA;E;Rule Support in a Object-Oriented Data Manager for Cooperative Design
+253;271;1997;NA;E;Constructing Deductive-like Object-oriented Global Schemas
+254;272;1997;NA;P;Especificação de Mediadores para Acesso e Atualização de Múltiplas Bases de Dados
+255;273;1997;NA;P;Acesso Integrado a Banco de Dados Distribuídos Heterogêneos utilizando CORBA
+256;274;1997;NA;P;Interoperabilidade em um Sistema de Banco de Dados Heterogêneos usando Padrão CORBA
+257;275;1997;NA;E;MITO - Manipulation of Incomplete Temporal Objects
+258;276;1997;NA;E;Using Formal Operators for Visual Queries in Historical Databases
+259;277;1998;NA;E;Enhanced Support of Relationship Semantics in Object-Relational Database Systems
+260;278;1998;NA;E;An Active Rule Language for an Object Management System
+261;279;1998;NA;E;ECHOHOOD - Constructing DBMSs Based on Frameworks
+262;280;1998;NA;E;Instanciating Integrated Schemas
+263;281;1998;NA;E;Extensions to Decision Tree Algorithms for Classification and Data Mining in Large Databases
+264;282;1998;NA;P;Projeto de Dados em Banco de Dados Distribuídos
+265;283;1998;NA;P;Representando Exceções e Prevendo Tratamento de Falhas no Nível de Modelagem de Workflow
+266;284;1998;NA;P;Ambiente de Projeto de Regras de Negócio em Banco de Dados
+267;285;1998;NA;P;Editor de Esquemas com suporte para Hierarquias de Classificação
+268;286;1998;NA;P;Uma Proposta para Identificação de Aspectos Temporais em SGBDs Relacionais
+269;287;1998;NA;P;Integração de LPOO e BDOO: Uma experiência com JAVA e GOA++
+270;288;1998;NA;P;Especificação de Consultas Incompletas em Banco de Dados Relacionais
+271;289;1998;NA;P;Sistema de Manipulação Nebulosa de Banco de Dados
+272;290;1998;NA;E;Generating Parallel Query Execution Plans for OQL Using a Parallelism Extraction Technique
+273;291;1998;NA;E;Development of a Computer Aided Geographic Database Design System
+274;292;1998;NA;P;Uma técnica de Filtragem para Recuperação de Informação
+275;293;1998;NA;P;Codificação Automática de Documentos em Bases de Dados Médicas: Um Estudo Comparativo
+276;294;1998;NA;P;Avaliação de Desempenho de um Modelo Bayesiano para Recuperação de Informação em Bibliotecas Digitais
+277;295;1998;NA;P;Um Modelo de Suporte à Evolução de Esquemas em Banco de Dados Orientados a Objetos com o Emprego de Versões
+278;296;1998;NA;P;Compartilhamento de Componentes com Vesões em Documentos Estruturados
+279;297;1998;NA;P;Materialização/Utilização Eficientes de Visões em Data Warehouses
+280;298;1998;NA;P;Propagação e Proliferação de Versões em Modelos Conceituais Hipermídia com Composições
+281;299;1998;NA;P;Métodos de Acesso em Banco de Dados Orientados a Objetos
+282;300;1998;NA;P;Hiper Store um Repositivo de Objetos Baseado em Banco de Dados Residentes em Memória
+283;301;1998;NA;P;Usando Dados Geográficos Urbanos na Comparação de Desempenho de Métodos de Acesso Espaciais
+284;302;2000;NA;P;Uma Interface Gráfica para Consulta a Fontes de Dados XML.
+285;303;2000;NA;E;An Architecture for Data Warehouse Systems Using a Heterogeneous Database Management System.
+286;304;2000;NA;P;Investigando a Variação do Desempenho de Métodos de Acesso Multidimensionais em Função da Distribuição Espacial dos Dados.
+287;305;2000;NA;E;An Investigation on Factors that Affect the Performance of Spatial Joins.
+288;306;2000;NA;P;Avaliação do Algoritmo de Coerência de Cache de Disco DSMIO.
+289;307;2000;NA;E;Mail-by-Example: A Visual Query Interface for Managing Large Volumes of Data.
+290;308;2000;NA;E;Topographic Combination of Images and Text for Information Discovery in a Digital Library Context.
+291;309;2000;NA;E;Fast Feature Selection Using Fractal Dimension.
+292;310;2000;NA;E;Mining Temporal Constraints in Databases Using Genetic Programming.
+293;311;2000;NA;E;Past-directed Evaluation of Dynamic Integrity Constraints in Temporal Databases.
+294;312;2000;NA;E;Query Optimization in KESS - An Ontology-Based KBMS.
+295;313;2000;NA;E;Implementing a Temporal Database on Top of a Conventional Database: Mapping of the Data Model and Data Definition Management.
+296;314;2000;NA;E;Temporal Serialization Graph Testing: An Approach to Control Concurrency in Broadcast Environments.
+297;315;2000;NA;P;Modelo de Custos para Seleção Dinâmica de Agregados a Materializar em Data Warehouses.
+298;316;2000;NA;E;Heterogeneous Database Interoperability Using the WWW.
+299;317;2000;NA;E;Self-Maintenance of Match Classes in Materialized Integrated Views.
+300;318;2000;NA;E;A Methodology Targeted at the Insertion of Data Warehouse Technology in Corporations.
+301;319;2000;NA;P;Construção Eficiente de Índices para Bases de Dados Textuais.
+302;320;2000;NA;E;Implementing a Metadata Database for an Environmental Informatuin System.
+303;321;2000;NA;E;GeoVisual Interface - A Visual Query Interface for Geographic Information Systems.
+304;322;2000;NA;P;Distribuindo os Dados do Data Warehouse.
+305;323;2000;NA;P;ASByE: uma Ferramenta Baseada em Exemplos para Especificação de Agentes para Coleta de Documentos Web.
+306;324;2000;NA;E;A Raster Approximation for Processing of Polyline Joins.
+307;325;2000;NA;E;Parallel Processing Evaluation of Path Expressions.
+308;326;2000;NA;E;Modeling of an Object-Oriented Data Mart for Knowledge Discovery in Multimedia Metadata.
+309;327;2000;NA;E;Using Quantitative Information for Efficient Association Rule Generation.
+310;328;2007;NA;P;RepliX: Um Mecanismo para a Replicação de Dados XML.
+311;329;2007;NA;E;Efficient on-demand Opinion Mining.
+312;330;2007;NA;E;Constraint-based Tree Pattern Mining.
+313;331;2007;NA;E;Constrained Aggregate Similarity Queries in Metric Spaces.
+314;332;2007;NA;P;Sistema FOQuE para Expansão Semântica de Consultas Baseada em Ontologias Difusas.
+315;333;2007;NA;E;AJAX - Adaptive Join Algorithm for Extreme Restrictions.
+316;334;2007;NA;E;Storing AXML documents with ARAXA.
+317;335;2007;NA;E;Bulk-loading Dynamic Metric Access Methods.
+318;336;2007;NA;E;Towards Efficient Horizontal Multimedia Database Fragmentation using Semantic-based Predicates Implication.
+319;339;2007;NA;E;Mining Temporal Relational Patterns over Databases with Hybrid Time Domains.
+320;340;2007;NA;E;A new approach for similarity queries using neighborhood graphs.
+321;341;2007;NA;P;Um Metamodelo para a Especificação de Data Warehouses Geográficos.
+322;342;2007;NA;P;Uma Estratégia baseada em Técnicas de KDD para apoiar o Projeto Físico em SGBDs XML Nativos.
+323;343;2007;NA;E;A Component-Based Digital Library Service for Finding Missing Documents.
+324;344;2007;NA;E;Embedding Similarity Joins into Native XML Databases.
+325;345;2007;NA;E;EDACluster: An Evolucionary Density and Grid-Based Clustering Algorithm.
+326;347;2007;NA;E;MDAG-Cubing: A Reduced Star-Cubing Approach.
+327;349;2007;NA;E;Assisting XML Schema Evolution that Preserves Validity.
+328;352;2007;NA;P;Utilização de Chaves em Algoritmos de Diff para XML.
+329;353;2007;NA;E;Similarity and Analogy over Application Domains.
+330;354;2007;NA;E;Querying Geographical Data Warehouses With GeoMDQL.
+331;355;2007;NA;E;A Hypergraph Model for Computing Page Reputation on Web Collections.
+332;357;2007;NA;E;A Heuristic-based Hierarchical Clustering Method for Author Name Disambiguation in Digital Libraries.
+333;358;2007;NA;E;Efficient XML Structural Similarity Detection using Sub-tree Commonalities.
+334;360;2001;NA;P;Recuperação de Informação em Coleções Médicas Utilizando Categorização Automática de Documentos.
+335;361;2001;NA;E;Ad hoc Query Support for Very Large Scientific Data: the Metadata Approach.
+336;362;2001;NA;P;Processamento Eficiente de Junções Espaçotemporais.
+337;364;2001;NA;E;Incorporating Deviation-Detection Functionality into the OLAP Paradigm.
+338;366;2001;NA;P;Recuperação de Imagens na Web Baseada em Múltiplas Evidências Textuais.
+339;367;2001;NA;P;Gerenciamento Temporal de Versões para Evolução de Esquemas em BDOO.
+340;369;2001;NA;P;Mineração Incremental de Regras de Associação.
+341;370;2001;NA;P;Recuperação de Documentos Jurídicos Baseada em um Tesauro.
+342;371;2001;NA;E;A Metadata Approach to Manage and Organize Electronic Documents and Collections on the Web.
+343;372;2001;NA;P;Modelagem Vetorial Estendida por Regras de Associação.
+344;373;2001;NA;P;Estendendo o Modelo de Relacionamentos do OpenGIS para Garantir Restrições Espaciais Topológicas.
+345;374;2001;NA;E;The Dimension-Join: A New Index for Data Warehouses.
+346;375;2001;NA;E;Matchsimile: A Flexible Approximate Matching Tool for Personal Names Searching.
+347;376;2001;NA;E;Using Agents for Generation and Maintenance of Mediators in a Data Integration System on the Web.
+348;377;2001;NA;P;Implementação em Java de um Algoritmo de Árvore de Decisão Acoplado a um SGBD Relacional.
+349;378;2001;NA;P;ARCOJP: Uma Arquitetura para Comparação de Junções Paralelas.
+350;379;2001;NA;E;Semantic Integration of Tourism Enterprises: an Ontological Approach.
+351;380;2001;NA;E;Documenting Changes in a Spatiotemporal Database.
+352;381;2001;NA;E;Applying Rules for Partitioned Parallelism in OODBMS within an Optimizer Generator Framework.
+353;382;2001;NA;P;Visualização de Dados em Sistemas de Bases de Dados Relacionais.
+354;383;2001;NA;P;Uma Abordagem para Armazenamento de Dados Semi-Estruturados em Bancos de Dados Relacionais.
+355;385;2002;NA;P;Avaliação de Estratégias para o Processamento de Expressões de Caminho.
+356;386;2002;NA;E;Competitive Online Comparison for Parallel Joins.
+357;387;2002;NA;E;Personalized Keyword Search with Partial-Order Preferences.
+358;390;2002;NA;E;Format-Independent Change Detection and Propagation in Support of Mobile Computing.
+359;392;2002;NA;P;Avaliação de Sistemas de Coerência de Cache em Arquiteturas ODBMs Cliente-Servidor.
+360;393;2002;NA;P;Diretrizes para a Modelagem Incremental de Data Marts.
+361;394;2002;NA;E;AMPA: Knowledge Management in Analytical-based Decision Processes.
+362;395;2002;NA;E;A Multi-User Key and Data Exchange Protocol to Manage a Secure Database.
+363;396;2002;NA;P;Expansão de Consultas Utilizando Indexação Semântica Latente.
+364;397;2002;NA;P;Recuperação de Informação Médica Interlínguas.
+365;398;2002;NA;P;Arquitetura de Software para Construção de Banco de Dados Geográficos com SGBD Objeto-Relacionais.
+366;400;2002;NA;P;XVerter: Armazenamento e Consulta de Dados XML em SGBDs.
+367;401;2002;NA;E;AMDB: An Approach for Sharing Mobile Databases in Dynamically Configurable Environments.
+368;402;2002;NA;E;Semiautomatic Generation of Data-Extraction Ontologies from Relational Databases.
+369;403;2002;NA;P;DIG: Mm Serviço de Custos e Estatísticas para o Processamento Distribuído de Consultas.
+370;405;2002;NA;E;Mining Reliable Models of Associations in Dynamic Databases.
+371;406;2002;NA;P;Mineração Eficiente de Regras de Classificação com Sistemas de Banco de Dados Objeto-Relacional.
+372;407;2002;NA;P;TV_ODMG: Uma Extensão do Padrão ODMG com Suporte para Tempo e Versões.
+373;408;2002;NA;P;Uma Abordagem Top-Down para Geração das Correspondências entre XML Schemas Semânticos.
+374;409;2002;NA;P;Consultando Bancos de Dados Disponíveis na Web Usando Palavras-Chave.
+375;410;2002;NA;P;iFP-growth: Um Algoritmo Incremental para Determinar Regras de Associação.
+376;413;2003;NA;E;Can Ontologies Improve Web Search Engine Effectiveness Before the Advent of the Semantic Web?
+377;414;2003;NA;E;Mining Class-Dependent Rules Using the Concept of Generalization/Specialization Hierarchies.
+378;415;2003;NA;E;Using Domain Ontologies to Help Track Data Provenance.
+379;416;2003;NA;E;Privacy Preserving Clustering by Data Transformation.
+380;417;2003;NA;E;Performance and Quality Evaluation of a Personalized Route Planning System.
+381;418;2003;NA;P;Usando Critérios de Qualidade para Materialização Seletiva de Dados.
+382;419;2003;NA;E;A Nearest-Neighbor Method as a Data Preparation Tool for a Clustering Genetic Algorithm.
+383;420;2003;NA;P;Alocação de Dados em Bancos de Dados Distribuídos.
+384;421;2003;NA;P;Informação de Links no Modelo Vetorial Usando uma Estrutura Funcional.
+385;422;2003;NA;E;Cherry Picking: A Semantic Query Processing Strategy for the Evaluation of Expensive Predicates.
+386;426;2003;NA;E;Workflow Execution in Disconnected Environments.
+387;427;2003;NA;E;Generating Mediation Queries for XML-based Data Integration Systems.
+388;428;2003;NA;E;An Improved Approach in Data Warehousing ETLM Process for Detection of Changes in Source Data.
+389;430;2003;NA;E;Efficient Accurate and Privacy-Preserving Data Mining for Frequent Itemsets in Distributed Databases.
+390;431;2003;NA;E;A Data Mart Approach for Monitoring Web Services Usage and Evaluating Quality of Services.
+391;432;2003;NA;E;UXQuery: Building Updatable XML Views over Relational Databases.
+392;433;2003;NA;P;Uma Proposta para Gerenciamento de Metadados nos Padrões XML e DTD em Repositórios MOF.
+393;435;2003;NA;P;Uma Máquina Extensível para Suporte a Novos Modelos de Execução de Consultas.
+394;436;2003;NA;P;Verificação Automática da Qualidade de Dados Extraídos da Web.
+395;437;2003;NA;E;Towards an Intelligent Information System.
+396;438;2003;NA;E;Fragmentation of XML Documents.
+397;439;2003;NA;E;Enforcement of Business Rules in Relational Databases Using Constraints.
+398;440;2003;NA;P;Aumento da Eficiência das Estruturas de Indexação Métricas com Uso de Conceitos da Lógica Nebulosa.
+399;441;2003;NA;P;Operadores de Seleção por Similaridade para Sistemas de Gerenciamento de Bases de Dados Relacionais.
+400;442;2003;NA;E;Data Modification Language for Full Support of Temporal Schema Versioning.
+401;443;2003;NA;E;Implementing and Evaluating Warehouses and Summaries Over a Cluster.
+402;444;1999;NA;P;Uma Avaliação Experimental sobre Técnicas de Indexação em Bancos de Dados Orientados a Objetos.
+403;445;1999;NA;E;Building Logical DVR Model of a Multidimensional Database.
+404;446;1999;NA;P;Incerteza em Bancos de Dados: Tipo de Dados Nebulosos no GOA++.
+405;447;1999;NA;E;SNePS and Semi-Structured Databases.
+406;448;1999;NA;E;Data-driven Active Rules for the Maintenance of Derived Data and Integrity Constraints in User Interfaces to Databases.
+407;449;1999;NA;P;Integração de Sistemas de Bancos de Dados Heterogêneos Usando Frameworks.
+408;450;1999;NA;P;Tratamento de Herança em uma Interface Gráfica de Consulta a Bancos de Dados Relacionais.
+409;451;1999;NA;P;Modelagem de Bancos de Dados em Tempo-real.
+410;452;1999;NA;E;Supporting Cooperation with Integrated Transaction and Session Facilities.
+411;453;1999;NA;E;Recovery in Multidatabase Systems.
+412;454;1999;NA;E;Towards a Knowledge Base Management System (KBMS): An Ontology-Aware Database Management System (DBMS).
+413;455;1999;NA;E;Behavior of Active Rules within Multi-Database Systems.
+414;456;1999;NA;P;A Tecnologia Objeto-Relacional em Ambientes de Data Warehouse: Uso de Séries de Tempo como Tipo de Dado Não Convencional.
+415;457;1999;NA;P;Uma Primitiva para dar Suporte à Obtenção de Resumos Estatísticos para Clasificação em Mineração de Dados.
+416;458;1999;NA;P;Integrando Sistemas Legados a Bancos de Dados Heterogêneos.
+417;459;1999;NA;P;Utilizando Técnica de Reconhecimento de Caracteres Manuscritos.
+418;460;1999;NA;P;TDA - Um Método para Indexar Topologicamente Atributos Espaciais.
+419;461;1999;NA;E;A Scheduling Method of Database Migration for WAN Environments.
+420;462;1999;NA;E;Queries to Temporal Databases Supporting Schema Versioning.
+421;463;1999;NA;E;Interactive Multistage Simulation of Goal-Driven Agents.
+422;464;1999;NA;P;Uma Ferramenta para Gerência de Metadados em Arquiteturas Baseadas em Mediadores.
+423;465;1999;NA;E;A Graphical Notebook as Interaction Metaphor for Querying Databases.
+424;466;1999;NA;E;A Reflective Persistence Middleware over an Object Oriented Database Engine.
+425;467;1999;NA;P;DEByE - Uma ferramenta para Extração de Dados Semi-Estruturados.
+426;468;1999;NA;P;Geração de Regras de Associação Quantitativas.
+427;469;1999;NA;P;Compartilhamento de Módulos de Bases de Dados Heterogêneas através de Objetos Integradores.
+428;472;2005;NA;P;Geração Automática de Visões de Objeto de Dados Relacionais.
+429;473;2005;NA;E;Self Describing Components: Searching for Digital Artifacts on the Web.
+430;475;2005;NA;P;Remoção de Ambiguidades na Identificação de Autoria de Objetos Bibliográficos.
+431;477;2005;NA;P;Detecção de Réplicas Utilizando Conteúdo e Estrutura.
+432;479;2005;NA;E;Warping the Time on Data Streams.
+433;480;2005;NA;E;Querying complex objects by similarity in SQL.
+434;481;2005;NA;P;Uma Biblioteca Digital Georreferenciada para Dados Ecológicos.
+435;482;2005;NA;P;Mapeamento de Definições XML Schema para SQL: 1999.
+436;483;2005;NA;E;Design and Implementation of a Global Self-tuning Architecture.
+437;484;2005;NA;E;First-Order Temporal Pattern Mining with Regular Expression Constraints.
+438;485;2005;NA;P;Uma Arquitetura Eficiente para Armazenamento Compressão e Acesso a Dados em Dispositivos Móveis com Recursos Computacionais Limitados.
+439;486;2005;NA;E;Extending Relational Algebra to express one-to-many data transformations.
+440;487;2005;NA;E;SSDM: A Semantically Similar Data Mining Algorithm.
+441;488;2005;NA;E;Peer-To-Peer Databases for e-Science: a Biodiversity Case Study.
+442;489;2005;NA;E;TVCL - Temporal Versioned Constraint Language.
+443;490;2005;NA;P;Integração de Objetos de Aprendizagem no Sistema ROSA-P2P.
+444;491;2005;NA;E;Rule Generation and Rule Selection Techniques for Cost-Sensitive Associative Classification.
+445;492;2005;NA;P;Algoritmos Genéticos para Consultas por Similaridade Aproximadas.
+446;493;2005;NA;E;DeweyIDs - The Key to Fine-Grained Management of XML Documents.
+447;494;2005;NA;E;A Geographic Knowledge Base for Semantic Web Applications.
+448;496;2005;NA;E;A Domain Integrity Constraint Control for XML Documents.
+449;499;2004;NA;E;Towards Cost-based Optimization for Data-intensive Web Service Computations.
+450;500;2004;NA;E;Dependence among Terms in Vector Space Model.
+451;501;2004;NA;E;Visual Analysis of Feature Selection for Data Mining Processes.
+452;502;2004;NA;E;A Hypotheses-based Method for Identifying Skewed Itemsets.
+453;503;2004;NA;E;Matching of XML Schemas and Relational Schemas.
+454;504;2004;NA;E;Twisting the Metric Space to Achieve Better Metric Trees.
+455;505;2004;NA;E;FramePersist: An Object Persistence Framework for Mobile Device Applications.
+456;506;2004;NA;E;A Lock Manager for Collaborative Processing of Natively Stored XML Documents.
+457;508;2004;NA;E;Computing the Dependency Basis for Nested List Attributes.
+458;509;2004;NA;P;i-FoX: Um Índice Eficiente e Compacto para Dados XML.
+459;510;2004;NA;E;A Framework for Data Quality Evaluation in a Data Integration System.
+460;511;2004;NA;E;An Apriori-based Approach for First-Order Temporal Pattern Mining.
+461;512;2004;NA;E;Optimizing Ranking Calculation in Web Search Engines: a Case Study.
+462;514;2004;NA;E;A Pull-Based Approach for Incremental View Maintenance in Mobile DWs.
+463;515;2004;NA;E;AQUAWARE: A Data Quality Support Environment for Data Warehousing.
+464;517;2004;NA;E;Query Processing in ROSA Data Model.
+465;518;2004;NA;E;Adaptive Virtual Partitioning for OLAP Query Processing in a Database Cluster.
+466;519;2004;NA;P;Aplicação de um Filtro Seletivo para a Otimização de Consultas Paralelas Usando o Agrupamento Prévio.
+467;520;2004;NA;E;DBM-Tree: A Dynamic Metric Access Method Sensitive to Local Density Data.
+468;521;2004;NA;P;Classificação de Restrições de Integridade em Bancos de Dados Temporais de Versões.
+469;522;2004;NA;E;Providing Multidimensional and Geographical Integration Based on a GDW and Metamodels.
+470;524;2004;NA;E;Integrating Heterogeneous Data Sources in Flexible and Dynamic Environments.
+471;525;2004;NA;P;Modelagem de Bibliotecas Digitais usando a Abordagem 5S: Um Estudo de Caso.
+472;526;2004;NA;E;On Coding Navigation Paths for In-Memory Navigation in Persistent Object Stores.
+473;527;2004;NA;E;Siphoning Hidden-Web Data through Keyword-Based Interfaces.
+474;528;2006;NA;E;YAQCX: A Word-based Query-aware Compressor for XML Data.
+475;529;2006;NA;P;Aplicação de Banco de Dados Orientado a Objetos na Modelagem Multidimensional.
+476;530;2006;NA;E;Automatic Generation of SQL/XML Views.
+477;531;2006;NA;P;Um Framework para Concepção de Ferramentas de Apoio à Decisão Baseadas em Ontologias.
+478;532;2006;NA;E;Automatic Inconsistency Treatment in Case-Based Reasoning Systems.
+479;533;2006;NA;E;Extracting and Searching Useful Information Available on Web FAQs.
+480;535;2006;NA;P;Geração Eficiente de Planos de Materialização para Documentos XML Ativos.
+481;536;2006;NA;P;Melhorando o Desempenho do Processamento de Consultas Drill-Across em Ambientes de Data Warehousing.
+482;537;2006;NA;E;ADAGA - ADaptive AGgregation Algorithm for Sensor Networks.
+483;538;2006;NA;P;Ferramenta para Geração de Modelo Dimensional para Data Warehouses.
+484;539;2006;NA;E;Towards Autonomic Index Maintenance.
+485;540;2006;NA;E;Query Driven Sequence Pattern Mining.
+486;541;2006;NA;P;ROSA+: Um Repositório de Objetos de Aprendizagem com Suporte a Inferência e Regras.
+487;542;2006;NA;E;A Query Language for a Versioned Object Oriented Database.
+488;543;2006;NA;P;EIT - Escalonador Inteligente de Transações.
+489;544;2006;NA;E;On RDBMS and Workflow Support for Componentized Digital Libraries.
+490;547;2006;NA;E;Using Fuzzy Ontologies to Extend Semantically Similar Data Mining.
+491;548;2006;NA;E;An Efficient Approach to Scale up k-medoid based Algorithms in Large Databases.
+492;549;2006;NA;P;Extração de Dados e Metadados em Textos Semi-estruturados usando HMMs.
+493;550;2006;NA;E;On the Complexity of Process Pipeline Scheduling.
+494;551;2006;NA;E;OM: A Tunable Framework for Optimizing Continuous Queries over Data Streams.
+495;554;2009;NA;P;Doctor OLAP: Ambiente para Análise Multifacetada de Prontuários Médicos.
+496;555;2009;NA;E;Functional Dependencies in OWL ABOX.
+497;556;2009;NA;P;Replicação Assíncrona em Modelagem Evolutiva de Banco de Dados.
+498;557;2009;NA;P;Recuperação de Imagens da Web Utilizando Múltiplas Evidências Textuais e Programação Genética.
+499;558;2009;NA;E;Incorporating Metric Access Methods for Similarity Searching on Oracle Database.
+500;559;2009;NA;P;Um Framework para Integração Materializada de Documentos XBRL.
+501;560;2009;NA;E;Efficient Decision Procedures for Query Containment and Related Problems.
+502;561;2009;NA;E;Sequential Medical Treatment Mining for Survival Analysis.
+503;563;2009;NA;P;Blocagem Adaptativa e Flexível para o Pareamento Aproximado de Registros.
+504;564;2009;NA;E;Automatic Generated Tag Clouds.
+505;567;2009;NA;E;Mining Climate and Remote Sensing Time Series to Discover the Most Relevant Climate Patterns.
+506;568;2009;NA;P;Classificação Automática de Documentos Robusta Temporalmente.
+507;570;2009;NA;P;Seleção Automática de Exemplos de Treino para um Método de Deduplicação de Registros baseado em Programação Genética.
+508;571;2009;NA;E;A Taxonomy of SOLAP Operators.
+509;572;2009;NA;P;Reindexação Automática em SGBDs Relacionais.
+510;574;2009;NA;E;Evaluating the Use of Social Networks in Author Name Disambiguation in Digital Libraries.
+511;575;2009;NA;P;Processamento de Alto Desempenho em Consultas sobre Bases de Dados Geoestatísticas Usando Replicação Parcial.
+512;576;2008;NA;P;Um Controle de Concorrência Distribuído para Dados XML.
+513;577;2008;NA;P;Ontologias Emergentes: Uma nova Abordagem para Integração de Ontologias.
+514;578;2008;NA;E;Computing Data Cubes without Redundant Aggregated Nodes and Single Graph Paths: The Sequential MCG Approach.
+515;579;2008;NA;E;Indexing Internal Memory with Minimal Perfect Hash Functions.
+516;580;2008;NA;E;A Model for XML Instance Level Integration.
+517;581;2008;NA;P;Estudo de Caso de Mineração de Dados Multi-Relacional: Aplicação do Algoritmo ConnetionBlock em um Problema da Agroindústria.
+518;582;2008;NA;P;Paginação de Resultados em Consultas por Abrangência.
+519;583;2008;NA;E;The Impact of Parameters Setup on a Genetic Programming Approach to Record Deduplication.
+520;584;2008;NA;E;Automatic Threshold Estimation for Data Matching Applications.
+521;585;2008;NA;E;Mining Software Repositories for Software Change Impact Analysis: A Case Study.
+522;587;2008;NA;E;Image Retrieval with Relevance Feedback based on Genetic Programming.
+523;588;2008;NA;P;Uma Abordagem Efetiva e Eficiente para Deduplicação de Metadados Bibliográficos de Objetos Digitais.
+524;589;2008;NA;P;Aprimorando Processos de Imputação Multivariada de Dados com Workflows.
+525;590;2008;NA;P;Especificação e Avaliação de Algoritmos para Processamento Multidimensional-Geográfico.
+526;591;2008;NA;P;Uma Plataforma de Serviços de Recomendação para Bibliotecas Digitais.
+527;592;2008;NA;P;Agregação e Predição de Dados Em Rede com Precisão Ajustável no Processamento de Consultas em Redes de Sensores Sem Fio.
+528;593;2008;NA;P;D-Bioflow: Uma Abordagem para Distribuição de Dados em Workflows de Bioinformática.
+529;594;2008;NA;P;Um Padrão Canônico para Controle de Paralelização em Aplicações de e-Science.
+530;595;2008;NA;P;BizPro: Um Sistema de Análise para Dados Financeiros.
+531;597;2008;NA;E;Calibrated Lazy Associative Classification.
+532;599;2008;NA;P;Reconciliando Dados de Cunho Acadêmico.
+533;600;2010;NA;E;A Multi-view Approach for Detecting Non-Cooperative Users in Online Video Sharing Systems
+534;601;2010;NA;E;A Context-Dependent Supervised Learning Approach to Sentiment Detection in Large Textual Databases
+535;602;2010;NA;E;Indexing Web Form Constraints
+536;603;2010;NA;E;An Adaptive Multi-level Hashing Structure for Fast Approximate Similarity Search
+537;604;2010;NA;E;DAHC-tree: An Effective Index for Approximate Search in High-Dimensional Metric Spaces
+538;605;2010;NA;E;Adding Knowledge Extracted by Association Rules into Similarity Queries
+539;606;2010;NA;E;RDBMS as an Efficient Tool to Mine Cliques on Complex Networks
+540;607;2010;NA;E;HiSP-GC: A Classification Method Based on Probabilistic Analysis of Patterns
+541;608;2010;NA;E;Estimating the Credibility of Examples in Automatic Document Classification
+542;609;2010;NA;E;Processing Queries over Distributed XML Databases
+543;610;2010;NA;E;Supporting Temporal Queries on XML Keyword Search Engines
+544;611;2010;NA;E;An Evaluation Study of Search Algorithms for XML Streams
+545;612;2010;NA;E;Evaluation of Conditional Preference Queries
+546;613;2010;NA;E;How Does the Spatial Data Redundancy Affect Query Performance in Geographic Data Warehouses?
+547;614;2010;NA;E;Towards Automatic Generation of Application Ontologies
+548;615;2010;NA;E;WCL2R: A Benchmark Collection for Learning to Rank Research with Clickthrough Data
+549;616;2010;NA;E;Learning to Rank using Query-Level Rules
+550;617;2010;NA;E;Using Statistical Features to Find Phrasal Terms in Text Collections
+551;1000;2011;full;E;Design Implementation
+552;1001;2011;full;E;A Novel Method for Selecting and Materializing Views based on OLAP Signatures and GRASP
+553;1002;2011;full;E;Algebraic Properties to Optimize kNN Queries
+554;1003;2011;full;E;Nearest Neighbor Queries with Counting Aggregate-based Conditions
+555;1004;2011;full;E;Planning Databases Service Level Agreements through Stochastic Petri Nets
+556;1005;2011;full;E;Using Pivots to Speed-Up k-Medoid Clustering
+557;1006;2011;full;E;ACAKS: An Ad-Collection-Aware Keyword Selection Approach for Contextual Advertising
+558;1007;2011;full;E;On Using Wikipedia to Build Knowledge Bases for Information Extraction by Text Segmentation
+559;1008;2011;full;E;Exploiting Temporal Locality to Determine User Bias in Microblogging Platforms
+560;1009;2011;full;E;Tackling Temporal Effects in Automatic Document Classification Through Cascaded Temporal Smoothing
+561;1010;2011;full;E;ADI-Minebio: A Graph Mining Algorithm for Biomedical Data
+562;1011;2011;full;E;Incremental Unsupervised Name Disambiguation in Cleaned Digital Libraries
+563;1012;2011;full;E;Evaluating Descriptors Retrieval Effectiveness for Searching in Large Image Databases
+564;1013;2011;full;E;Virtual Partitioning ad-hoc Queries over Distributed XML databases
+565;1014;2011;full;E;Using a Foundational Ontology for Reengineering a Software Process Ontology
+566;1015;2011;full;E;Competence-Conscious Associative Rank Aggregation
+567;1016;2011;full;E;Towards a Formal Theory for Complex Objects and Content-Based Image Retrieval
+568;1017;2011;full;E;Improving Lazy Attribute Selection
+569;1018;2011;full;E;Using Goal Modeling to Capture Competency Questions in Ontology-based Systems
+570;1019;2011;full;E;Extracting new relations to improve ontology reuse
+571;1020;2011;full;E;An Approach for the Alignment of Biomedical Ontologies based on Foundational Ontologies
+572;1021;2011;full;E;From conceptual modeling to logical representation of trajectories in SGBDOR and DW systems
+573;1043;2012;full;E;A Flash File System for Resource Restricted Platforms
+574;1044;2012;full;E;Using Complex Networks for Mining Malicious Activities in a Collaborative Map
+575;1045;2012;full;E;A Dynamic Threshold Algorithm for Anomaly Detection in Logs of Process Aware Systems
+576;1046;2012;full;E;Towards a Better Quality Metric For Graph Cluster Evaluation
+577;1047;2012;full;E;Improving Local Per Level Hierarchical Classification
+578;1048;2012;full;E;Identifying Parallel Web Pages
+579;1049;2012;full;E;K-Nearest Neighbors Queries in Time-Dependent Road Networks
+580;1050;2012;full;E;A Framework for ETL Systems Development
+581;1051;2012;full;E;Improving Author Name Disambiguation with User Relevance Feedback
+582;1052;2012;full;E;An Implementation of Transaction Model for Business Process Systems
+583;1053;2012;full;E;DYSTO - A Dynamic Storage Model for Wireless Sensor Networks
+584;1054;2012;full;E;Min-Hash Fingerprints for Graph Kernels: A Trade-off among Accuracy Efficiency
+585;1055;2012;full;E;Proactive Index Maintenance: Using Prediction Models for Improving Index Maintenance in Databases
+586;1056;2012;full;E;Extracting Geospatial Preferences Using Relational Neighbors
+587;1057;2012;full;E;Time-Aware Ranking in Sport Social Networks
+588;1058;2012;full;E;Evaluating Logic-Based Scoring Functions on Uncertain Relational Data
+589;1059;2012;full;E;Dynamic Integration of Multiple Evidence Sources for Ontology Learning
+590;1093;2013;full;E;ObInject: a NoODMG Persistence and Indexing Framework for Object Injection
+591;1094;2013;full;E;OBAS: An OLAP Benchmark for Analysis Services
+592;1095;2013;full;E;Finding Missing Cross-Language Links in Wikipedia
+593;1096;2013;full;E;Under Pressure Benchmark for DDBMS Availability
+594;1097;2013;full;E;A Relevance Measure for Multivalued Attributes
+595;1098;2013;full;E;Hierarchical Bottom-Up Safe Semi-Supervised Support Vector Machines for Multi-Class Transductive Learning
+596;1099;2013;full;E;Learning Accurate and Interpretable Classifiers using Optimal Multi-Criteria Rules
+597;1100;2013;full;E;Metamodeling the Enhanced Entity-Relationship Model
+598;1101;2013;full;E;A Comparative Study of Learning-to-Rank Techniques for Tag Recommendation
+599;1102;2013;full;E;Interaction-Aware Data Management in the Cloud
+600;1103;2013;full;E;cx-Sim: A Metric Access Method for Similarity Queries with Additional Conditions
+601;1104;2013;full;E;A Holistic Hybrid Algorithm for User Recommendation on Twitter
+602;1105;2013;full;E;A Method for Building Personalized Ontology Summaries
+603;1106;2013;full;E;Towards a Statistical Evaluation of PigLatin Joins
+604;1107;2013;full;E;Evaluating the Diversification of Similarity Query Results
+605;1108;2013;full;E;Finding Spatio-Temporal Patterns in Multidimensional Data Streams
+606;1109;2013;full;E;qCube: Efficient Integration of Range Query Operators over a High Dimension Data Cube
+607;1110;2013;full;E;Automatic Web Page Segmentation and Noise Removal for Structured Extraction using Tag Path Sequences
+608;1111;2013;full;E;GUARD: A Genetic Unified Approach for Recommendation
+609;1112;2013;full;E;Stress Testing of Transactional Database Systems
+610;1113;2013;full;E;SCM-BP: An Intelligent Buffer Management Mechanism for Database in Storage Class Memory
+611;1143;2014;full;E;A similarity-based approach to match elements across versions of XML documents
+612;1144;2014;full;P;Análise de Estratégias de Acesso a Grandes Volumes de Dados
+613;1145;2014;full;P;Captura e Consulta a Dados de Proveniência Retrospectiva Implícita Intra-Atividade
+614;1146;2014;full;P;CARLO: Modelo Ontológico de Contexto para Recomendação de Objetos de Aprendizagem em Ambientes Pervasivos
+615;1147;2014;full;E;Debugging Scientific Workflows with Provenance: Achievements and Lessons Learned
+616;1148;2014;full;P;Definição e Avaliação de uma Abordagem para Extração e Catalogação de Conteúdo Obtido da Deep Web
+617;1149;2014;full;E;Data Extraction from Structured Databases using Keyword-based Queries
+618;1150;2014;full;P;Gerência de Proveniência Multigranular em Linked Data com a Abordagem ETL4LinkedProv
+619;1151;2014;full;P;Halite-ds: Agrupamento de Dados em Subespaços de Séries Temporais Multidimensionais
+620;1152;2014;full;E;Improving Pairwise Preference Mining Algorithms using Preference Degrees
+621;1153;2014;full;P;Mineração da opinião sobre aspectos de candidatos a eleições em comentários de notícias
+622;1154;2014;full;P;Mineração de emoções em textos multilíngues usando um corpus paralelo
+623;1155;2014;full;P;oLinDa: Uma Abordagem para Decomposição de Consultas em Federações de Dados Interligados
+624;1156;2014;full;P;Principais componentes na ordenação de anúncios: um experimento em ambiente real de publicidade computacional
+625;1157;2014;full;P;Ranqueamento de pesquisadores em cenários ambíguos: uma abordagem probabilística
+626;1158;2014;full;E;Towards Supporting Systematic Mappings Studies : An Automatic Snowballing Approach
+627;1159;2014;full;P;Uma base para Recomendação na Modelagem de Processos de Negócio
+628;1160;2014;full;P;Uso de SGBDs NoSQL na Gerência da Proveniência Distribuída em Workflows Científicos
+629;1161;2015;full;E;An Architecture for Monitoring and Recommending Active Databases
+630;1162;2015;full;P;Avaliação da Localidade de Dados Intermediários na Execução Paralela de Workflows Bigdata
+631;1163;2015;full;E;Clustering Multivariate Climate Data Streams using Fractal Dimension
+632;1164;2015;full;P;Consulta Espacial Preferencial por Palavra-chave
+633;1165;2015;full;P;Contribuição de Pesquisa entre Comunidades como um Indicador de Influência
+634;1166;2015;full;P;Correlação Probabilística de Bancos de Dados Governamentais
+635;1167;2015;full;P;Definição de Planos de Execução Distribuídos para Consultas de Junção Espacial usando Histogramas Multidimensionais
+636;1168;2015;full;E;Employee Analytics through Sentiment Analysis
+637;1169;2015;full;P;Heurísticas para Aprimorar o Método BMW e suas Variantes
+638;1170;2015;full;E;SimDataMapper: An Architectural Pattern to Integrate Declarative Similarity Matching into Database Applications
+639;1171;2015;full;P;Uma Estratégia não Supervisionada para Previsão de Eventos usando Redes Sociais
+640;2001;2010;NA;E;Fast Feature Selection using Fractal Dimension - Ten Years Later
+641;2009;2010;NA;E;Adaptive Virtual Partitioning: Further Developments
+642;2015;2010;NA;E;Siphoning Hidden-Web Data through Keyword-Based Interfaces: Retrospective
+643;2017;2010;NA;E;Notes on \DeweyIDs - The Key to Fine-Grained Management of XML Documents''
+644;2018;2010;NA;E;Adaptive and Flexible Blocking for Record Linkage Tasks
+645;2020;2010;NA;E;Automatic Document Classification Temporally Robust
+646;2021;2010;NA;E;Automatic Selection of Training Examples for a Record Deduplication Method Based on Genetic Programming
+647;2022;2010;NA;E;FMI-SiR: A Flexible and Efficient Module for Similarity Searching on Oracle Database
+648;2023;2010;NA;E;Mining Relevant and Extreme Patterns on Climate Time Series with CLIPSMiner
+649;2024;2010;NA;E;Characterization and Analysis of User Profiles in Online Video Sharing Systems
+650;2025;2010;NA;E;Peersommender: A peer-level annotation based approach for multimedia recommendation
+651;2026;2010;NA;E;A new approach for video indexing and retrieval based on visual features
+652;2054;2011;NA;E;Information Retrieval Research at UFMG
+653;2055;2011;NA;E;Data Driven Research at LIS: the Laboratory of Information Systems at UNICAMP
+654;2056;2011;NA;E;The Data Integration Research Group at UFPE
+655;2057;2011;NA;E;Distributed Database Research at COPPE/UFRJ
+656;2058;2011;NA;E;The Database and Information Retrieval Research Group at UFAM
+657;2059;2011;NA;E;Research on Complex Data Management and Analysis at UFSC
+658;2069;2011;NA;E;Evaluating Retrieval Effectiveness of Descriptors for Searching in Large Image Databases
+659;2079;2011;NA;E;From Conceptual Modeling to Logical Representation of Trajectories in DBMS-OR and DW Systems
+660;2086;2012;NA;E;Order-Aware Twigs: Adding Order Semantics to Twigs
+661;2087;2012;NA;E;Three Decades of Research on Database Design at PUC-Rio
+662;2088;2012;NA;E;Long Lived Transaction Processing for Business Processes and Scientific Workflows
+663;2092;2012;NA;E;Using Taxonomies for Product Recommendation
+664;2114;2013;NA;E;The Images and Data Bases Group at University of São Paulo
+665;2120;2013;NA;E;The Chilean Database Group
+666;2168;2014;NA;E;A Wider Concept for Similarity Joins
+667;2169;2014;NA;E;Analyzing Missing Data in Metric Spaces
+668;2170;2014;NA;E;Combining Ontology Modules for Scientific Text Annotation
+669;2171;2014;NA;E;Embedding k-Nearest Neighbor Queries into Relational Database Management Systems
+670;2172;2014;NA;E;Examining Multiple Features for Author Profiling
+671;2173;2014;NA;E;Improving Index Maintenance Using Decision Analysis
+672;2174;2014;NA;E;Reducing Fragmentation in Incremental Author Name Disambiguation
+673;2175;2014;NA;E;Seamless Integration of Distance Functions and Feature Vectors for Similarity-Queries Processing
+674;2176;2014;NA;E;The HeightBL Algorithm for Bulk-loading F-Onion-trees
+675;2177;2014;NA;E;Towards Cloud Data Warehouses of Multivalued Encrypted Values
+676;2178;2015;NA;E;Language Independent n-Gram-Based Text Categorization with Weighting Factors: A Case Study
+677;2179;2015;NA;E;A Parallel Approach for Matching Large-scale Ontologies
+678;2180;2015;NA;E;KSample: Dynamic Sampling Over Unbounded Data Streams
+679;2181;2015;NA;E;Information Gain Feature Selection for Multi-Label Classification
