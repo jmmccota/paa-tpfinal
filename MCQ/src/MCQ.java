@@ -19,12 +19,16 @@ public class MCQ {
 				if (line == null)
 					break;
 				l = line.split(";");
-				ArrayList<Integer> tList = d.trabalhos.get(Integer.parseInt(l[1]));
-				if (tList == null) {
-					d.trabalhos.put(Integer.parseInt(l[1]), new ArrayList<>());
-					tList = d.trabalhos.get(Integer.parseInt(l[1]));
-				} else {
-					tList.add(Integer.parseInt(l[2]));
+				try{
+					ArrayList<Integer> tList = d.trabalhos.get(Integer.parseInt(l[1]));
+					if (tList == null) {
+						d.trabalhos.put(Integer.parseInt(l[1]), new ArrayList<>());
+						tList = d.trabalhos.get(Integer.parseInt(l[1]));
+					} else {
+						tList.add(Integer.parseInt(l[2]));
+					}
+				} catch(Exception e){
+					
 				}
 
 			}
