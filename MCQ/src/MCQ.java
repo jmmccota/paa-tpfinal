@@ -49,7 +49,6 @@ public class MCQ {
 	}
 
 	public static void addEdge(Data d, Graph g) {
-
 		for (Map.Entry<Integer, ArrayList<Integer>> entry : d.trabalhos.entrySet()) {
 			Integer key = entry.getKey();
 			ArrayList<Integer> value = entry.getValue();
@@ -58,8 +57,8 @@ public class MCQ {
 
 					g.edge.add(new Edge(value.get(i), value.get(j)));
 					g.edge.add(new Edge(value.get(j), value.get(i)));
-					g.vertex.get(i).addAjd(j + 1);
-					g.vertex.get(j).addAjd(i + 1);
+					g.vertex.get(i).addAdj(j + 1);
+					g.vertex.get(j).addAdj(i + 1);
 
 				}
 				g.vertex.get(i).degree = g.vertex.get(i).adj.size();

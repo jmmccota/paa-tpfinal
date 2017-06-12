@@ -12,8 +12,8 @@ public class Clique {
 		this.access = 0;
 	}
 
-	public void search(Graph g) {
-		Save s = new Save();
+	public void search(Graph g, String FILE) {
+		Save s = new Save(FILE);
 
 		ArrayList<Integer> P = new ArrayList();
 		ArrayList<Integer> C = new ArrayList();
@@ -38,9 +38,12 @@ public class Clique {
 
 			ArrayList<Integer> newP = new ArrayList<Integer>();
 
-			for (int u : P)
-				if (g.vertex.get(v - 1).isAdj(u))
+			for (int u : P){
+				Vertex vT = findVertex(g.vertex, v - 1);
+				if (vT != null && vT.isAdj(u)){	
 					newP.add(u);
+				}
+			}
 
 			if (newP.isEmpty() && C.size() > cliqueSize)
 				saveSolution(C);
@@ -51,6 +54,17 @@ public class Clique {
 			C.remove((Integer) v);
 			P.remove((Integer) v);
 		}
+	}
+	
+	Vertex findVertex(ArrayList<Vertex> vList, int v){
+
+		for (int i = 0; i < vList.size(); i++) {
+			if(vList.get(i).id == v){
+				//System.gc();
+				return vList.get(i);
+			}
+		}
+		return null;
 	}
 
 	void saveSolution(ArrayList<Integer> C) {
@@ -64,7 +78,7 @@ public class Clique {
 		String s = "Vertex = ";
 		for (int i = 0; i < this.cliqueVertex.size(); i++)
 			s += this.cliqueVertex.get(i) + " ";
-		s += "\nClique Size = " + this.cliqueSize;
+		s += "\r\nClique Size = " + this.cliqueSize;
 
 		return String.format(s);
 	}

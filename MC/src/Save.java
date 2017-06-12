@@ -5,7 +5,10 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Save {
-	String data = "/home/pricila/Dropbox/Mestrado/PAA/Trabalho Final/Resultados/MC/Popular";
+	String data ;
+	public Save(String data){
+		this.data= data;
+	}
 
 	public void saveClique(ArrayList<Integer> cliqueVertex) {
 		try {
@@ -13,7 +16,7 @@ public class Save {
 			PrintWriter print = new PrintWriter(writer);
 
 			for (int i = cliqueVertex.size() - 1; i >= 0; i--)
-				print.printf(cliqueVertex.get(i) + "\n");
+				print.printf(cliqueVertex.get(i) + "\r\n");
 
 			print.close();
 			writer.close();
@@ -27,12 +30,12 @@ public class Save {
 			FileWriter writer = new FileWriter(data + "_Medicoes.txt");
 			PrintWriter print = new PrintWriter(writer);
 
-			print.printf("Time Graph: " + tg + "\n");
-			print.printf("Time Clique: " + tc + "\n");
-			print.printf("Memory Total 1: " + mt1 + "\n");
-			print.printf("Memory Free 1: " + mf1 + "\n");
-			print.printf("Memory Total 2: " + mt2 + "\n");
-			print.printf("Memory Free 2: " + mf2 + "\n");
+			print.printf("Time Graph: " + tg + "\r\n");
+			print.printf("Time Clique: " + tc + "\r\n");
+			print.printf("Memory Total 1: " + mt1 + "\r\n");
+			print.printf("Memory Free 1: " + mf1 + "\r\n");
+			print.printf("Memory Total 2: " + mt2 + "\r\n");
+			print.printf("Memory Free 2: " + mf2 + "\r\n");
 
 			print.close();
 			writer.close();
@@ -51,9 +54,9 @@ public class Save {
 			FileWriter writer = new FileWriter(data + "_Others.txt");
 			PrintWriter print = new PrintWriter(writer);
 
-			print.printf("Access: " + access + "\n");
-			print.printf("Clique Size: " + cliqueSize + "\n");
-			print.printf("Average Degree: " + degree + "\n");
+			print.printf("Access: " + access + "\r\n");
+			print.printf("Clique Size: " + cliqueSize + "\r\n");
+			print.printf("Average Degree: " + degree + "\r\n");
 
 			print.close();
 			writer.close();

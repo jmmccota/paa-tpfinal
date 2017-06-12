@@ -12,7 +12,7 @@ public class Vertex {
 		this.adj = new ArrayList<>();
 	}
 
-	public void addAjd(int v) {
+	public void addAdj(int v) {
 		this.adj.add(v);
 	}
 

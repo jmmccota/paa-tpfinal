@@ -21,8 +21,9 @@ public class Graph {
 			s += i + 1;
 			for (int j = 0; j < this.vertex.get(i).adj.size(); j++)
 				s += " " + this.vertex.get(i).adj.get(j);
-			s += "\n";
+			s += "\r\n";
 		}
+		s += n;
 		return String.format(s);
 	}
 }
