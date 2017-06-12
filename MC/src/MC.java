@@ -101,7 +101,7 @@ public class MC {
 		buildGraph(data, graph);
 		timeGraph = System.currentTimeMillis() - timeGraph;
 
-		System.out.println(graph.toString());
+		//System.out.println(graph.toString());
 		
 		timeClique = System.currentTimeMillis();
 		clique.search(graph, FILE);
