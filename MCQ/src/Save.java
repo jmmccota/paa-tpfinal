@@ -5,9 +5,10 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class Save {
-	String data ;
-	public Save(String data){
-		this.data= data;
+	String data;
+
+	public Save(String data) {
+		this.data = data;
 	}
 
 	public void saveClique(ArrayList<Integer> cliqueVertex) {

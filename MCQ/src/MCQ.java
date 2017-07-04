@@ -19,7 +19,7 @@ public class MCQ {
 				if (line == null)
 					break;
 				l = line.split(";");
-				try{
+				try {
 					ArrayList<Integer> tList = d.trabalhos.get(Integer.parseInt(l[1]));
 					if (tList == null) {
 						d.trabalhos.put(Integer.parseInt(l[1]), new ArrayList<>());
@@ -27,8 +27,8 @@ public class MCQ {
 					} else {
 						tList.add(Integer.parseInt(l[2]));
 					}
-				} catch(Exception e){
-					
+				} catch (Exception e) {
+
 				}
 
 			}
@@ -38,37 +38,9 @@ public class MCQ {
 		}
 	}
 
-	public static void addVertex(Data d, Graph g) {
-		for (Map.Entry<Integer, ArrayList<Integer>> entry : d.trabalhos.entrySet()) {
-			Integer key = entry.getKey();
-			ArrayList<Integer> value = entry.getValue();
-			for (Integer m : value) {
-				g.vertex.add(new Vertex(m, 0));
-			}
-		}
-	}
-
-	public static void addEdge(Data d, Graph g) {
-		for (Map.Entry<Integer, ArrayList<Integer>> entry : d.trabalhos.entrySet()) {
-			Integer key = entry.getKey();
-			ArrayList<Integer> value = entry.getValue();
-			for (int i = 0; i < value.size(); i++) {
-				for (int j = i + 1; j < value.size(); j++) {
-
-					g.edge.add(new Edge(value.get(i), value.get(j)));
-					g.edge.add(new Edge(value.get(j), value.get(i)));
-					g.vertex.get(i).addAdj(j + 1);
-					g.vertex.get(j).addAdj(i + 1);
-
-				}
-				g.vertex.get(i).degree = g.vertex.get(i).adj.size();
-			}
-		}
-	}
-
 	public static void buildGraph(Data d, Graph g) {
-		addVertex(d, g);
-		addEdge(d, g);
+		g.addVertex(d);
+		g.addEdge(d);
 
 		g.n = g.vertex.size();
 	}

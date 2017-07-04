@@ -1,9 +1,44 @@
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 public class Graph {
+	public class Vertex {
+		public int id;
+		public int degree;
+		List<Integer> adj;
+
+		public Vertex(int id, int degree) {
+			this.id = id;
+			this.degree = degree;
+			this.adj = new ArrayList<>();
+		}
+
+		public void addAdj(int v) {
+			this.adj.add(v);
+		}
+
+		public boolean isAdj(int v) {
+			int i = 0;
+			while (i < adj.size()) {
+				if (adj.get(i) == v)
+					return true;
+				else
+					i++;
+			}
+			return false;
+		}
+	}
+
+	public class Edge {
+		public int u;
+		public int v;
+
+		public Edge(int u, int v) {
+			this.u = u;
+			this.v = v;
+		}
+	}
 
 	public ArrayList<Vertex> vertex;
 	public ArrayList<Edge> edge;
@@ -20,7 +55,7 @@ public class Graph {
 			Integer key = entry.getKey();
 			ArrayList<Integer> value = entry.getValue();
 			for (Integer m : value) {
-				vertex.add(new Vertex(m));
+				vertex.add(new Vertex(m, 0));
 			}
 		}
 	}
@@ -51,9 +86,8 @@ public class Graph {
 			s += i + 1;
 			for (int j = 0; j < this.vertex.get(i).adj.size(); j++)
 				s += " " + this.vertex.get(i).adj.get(j);
-			s += "\r\n";
+			s += "\n";
 		}
-		s += n;
 		return String.format(s);
 	}
 }

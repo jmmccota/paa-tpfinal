@@ -4,46 +4,30 @@ import java.util.ArrayList;
 public class Clique {
 	public int cliqueSize;
 	public ArrayList<Integer> cliqueVertex;
+	public int lowerBound;
 	public int access;
 
-	Clique() {
+	public Clique() {
 		this.cliqueSize = 0;
 		this.cliqueVertex = new ArrayList();
+		this.lowerBound = 0;
 		this.access = 0;
-	}
-
-	public void search(Graph g, String FILE) {
-		Save s = new Save(FILE);
-
-		ArrayList<Integer> P = new ArrayList();
-		ArrayList<Integer> C = new ArrayList();
-
-		for (int i = 0; i < g.n; i++)
-			P.add(g.vertex.get(i).id);
-
-		expand(g, C, P);
-
-		s.saveClique(cliqueVertex);
-		s.saveOthers(access, cliqueSize, g);
 	}
 
 	void expand(Graph g, ArrayList<Integer> C, ArrayList<Integer> P) {
 		for (int i = P.size() - 1; i >= 0; i--) {
-			access++;
 			if (C.size() + P.size() <= cliqueSize)
 				return;
 
 			int v = P.get(i);
+			access++;
 			C.add(v);
 
 			ArrayList<Integer> newP = new ArrayList<Integer>();
 
-			for (int u : P) {
-				Vertex vT = findVertex(g.vertex, v - 1);
-				if (vT != null && vT.isAdj(u)) {
+			for (int u : P)
+				if (g.vertex.get(v - 1).isAdj(u))
 					newP.add(u);
-				}
-			}
 
 			if (newP.isEmpty() && C.size() > cliqueSize)
 				saveSolution(C);
@@ -56,15 +40,31 @@ public class Clique {
 		}
 	}
 
-	Vertex findVertex(ArrayList<Vertex> vList, int v) {
+	public void search(Graph g, String file) {
+		Save s = new Save(file);
 
-		for (int i = 0; i < vList.size(); i++) {
-			if (vList.get(i).id == v) {
-				// System.gc();
-				return vList.get(i);
+		ArrayList<Integer> P = new ArrayList();
+		ArrayList<Integer> C = new ArrayList();
+
+		for (int i = 0; i < g.n; i++)
+			P.add(g.vertex.get(i).id);
+
+		LowerBound lb = new LowerBound();
+		lowerBound = lb.calcLowerBound(g, C, P);
+
+		for (int i = 0; i < P.size(); i++) {
+			int v = P.get(i);
+
+			if (g.vertex.get(v - 1).degree < this.lowerBound - 1) {
+				P.remove(i);
+				i--;
 			}
 		}
-		return null;
+
+		expand(g, C, P);
+
+		s.saveClique(cliqueVertex);
+		s.saveOthers(access, cliqueSize, lowerBound, g);
 	}
 
 	void saveSolution(ArrayList<Integer> C) {
@@ -78,7 +78,8 @@ public class Clique {
 		String s = "Vertex = ";
 		for (int i = 0; i < this.cliqueVertex.size(); i++)
 			s += this.cliqueVertex.get(i) + " ";
-		s += "\r\nClique Size = " + this.cliqueSize;
+		s += "\nClique Size = " + this.cliqueSize;
+		s += "\nLower Bound = " + this.lowerBound;
 
 		return String.format(s);
 	}

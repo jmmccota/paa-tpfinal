@@ -28,7 +28,7 @@ public class Clique {
 
 			for (int j = 0; j <= i; j++) {
 				int u = P.get(j);
-				
+
 				Vertex vT = findVertex(g.vertex, v - 1);
 				if (vT != null && vT.isAdj(u))
 					newP.add(u);
@@ -73,7 +73,7 @@ public class Clique {
 		for (int i = 0; i < P.size(); i++) {
 			int v = P.get(i);
 			int k = 0;
-			//System.out.println(v);
+			// System.out.println(v);
 			while (containAdj(g, v, colour[k]))
 				k++;
 
@@ -93,24 +93,24 @@ public class Clique {
 	boolean containAdj(Graph g, int v, ArrayList<Integer> Cl) {
 		for (int i = 0; i < Cl.size(); i++) {
 			int u = Cl.get(i);
-			
+
 			Vertex vT = findVertex(g.vertex, v - 1);
 			if (vT != null && vT.isAdj(u))
 				return true;
 		}
 		return false;
 	}
-	
-	Vertex findVertex(ArrayList<Vertex> vList, int v){
-//		for (Vertex vertex : vList) {
-//			if(vertex.id == v){
-//				//System.gc();
-//				return vertex;
-//			}
-//		}
+
+	Vertex findVertex(ArrayList<Vertex> vList, int v) {
+		// for (Vertex vertex : vList) {
+		// if(vertex.id == v){
+		// //System.gc();
+		// return vertex;
+		// }
+		// }
 		for (int i = 0; i < vList.size(); i++) {
-			if(vList.get(i).id == v){
-				//System.gc();
+			if (vList.get(i).id == v) {
+				// System.gc();
 				return vList.get(i);
 			}
 		}

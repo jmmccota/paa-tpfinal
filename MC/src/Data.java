@@ -19,12 +19,12 @@ public class Data {
 
 		for (Map.Entry<Integer, ArrayList<Integer>> entry : trabalhos.entrySet()) {
 			Integer key = entry.getKey();
-		    ArrayList<Integer> value = entry.getValue();
-		    s += key +": [";
-			for(Integer m : value){
-				s += m +", ";
+			ArrayList<Integer> value = entry.getValue();
+			s += key + ": [";
+			for (Integer m : value) {
+				s += m + ", ";
 			}
-			s +=  "]\r\n";
+			s += "]\r\n";
 		}
 		return String.format(s);
 	}

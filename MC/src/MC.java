@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class MC {
-	
+
 	public static void readData(String file, Data d) {
 		String line = "";
 		String l[] = {};
@@ -20,18 +20,18 @@ public class MC {
 				if (line == null)
 					break;
 				l = line.split(";");
-				try{
+				try {
 					ArrayList<Integer> tList = d.trabalhos.get(Integer.parseInt(l[1]));
 					if (tList == null) {
 						d.trabalhos.put(Integer.parseInt(l[1]), new ArrayList<>());
 						tList = d.trabalhos.get(Integer.parseInt(l[1]));
 					} else {
-						if(!tList.contains(Integer.parseInt(l[2]))){
+						if (!tList.contains(Integer.parseInt(l[2]))) {
 							tList.add(Integer.parseInt(l[2]));
 						}
 					}
-				} catch(Exception e){
-					
+				} catch (Exception e) {
+
 				}
 
 			}
@@ -42,38 +42,9 @@ public class MC {
 		}
 	}
 
-	public static void addVertex(Data d, Graph g) {
-		for (Map.Entry<Integer, ArrayList<Integer>> entry : d.trabalhos.entrySet()) {
-			Integer key = entry.getKey();
-			ArrayList<Integer> value = entry.getValue();
-			for (Integer m : value) {
-				g.vertex.add(new Vertex(m));
-			}
-		}
-	}
-
-	public static void addEdge(Data d, Graph g) {
-		for (Map.Entry<Integer, ArrayList<Integer>> entry : d.trabalhos.entrySet()) {
-			Integer key = entry.getKey();
-			ArrayList<Integer> value = entry.getValue();
-			
-			for (int i = 0; i < value.size(); i++) {
-				for (int j = i + 1; j < value.size(); j++) {
-
-					g.edge.add(new Edge(value.get(i), value.get(j)));
-					g.edge.add(new Edge(value.get(j), value.get(i)));
-					g.vertex.get(i).addAdj(j + 1);
-					g.vertex.get(j).addAdj(i + 1);
-
-				}
-				g.vertex.get(i).degree = g.vertex.get(i).adj.size();
-			}
-		}
-	}
-
 	public static void buildGraph(Data d, Graph g) {
-		addVertex(d, g);
-		addEdge(d, g);
+		g.addVertex(d);
+		g.addEdge(d);
 
 		g.n = g.vertex.size();
 	}
@@ -86,23 +57,24 @@ public class MC {
 		memoryTotal1 = Runtime.getRuntime().totalMemory();
 		memoryFree1 = Runtime.getRuntime().freeMemory();
 		String FILE = "C:/Users/JMMCC/Downloads/Trabalho Final/Workspace/work_author.csv";
-		//String FILE = "C:\\Users\\JMMCC\\Downloads\\Trabalho Final\\Dados\\hamming8-2.txt";
+		// String FILE = "C:\\Users\\JMMCC\\Downloads\\Trabalho
+		// Final\\Dados\\hamming8-2.txt";
 
 		Save save = new Save(FILE);
 		Data data = new Data();
-		
+
 		Graph graph = new Graph();
 		Clique clique = new Clique();
 
 		readData(FILE, data);
-		//System.out.println(data.toString());
-		
+		// System.out.println(data.toString());
+
 		timeGraph = System.currentTimeMillis();
 		buildGraph(data, graph);
 		timeGraph = System.currentTimeMillis() - timeGraph;
 
-		//System.out.println(graph.toString());
-		
+		// System.out.println(graph.toString());
+
 		timeClique = System.currentTimeMillis();
 		clique.search(graph, FILE);
 		timeClique = System.currentTimeMillis() - timeClique;
