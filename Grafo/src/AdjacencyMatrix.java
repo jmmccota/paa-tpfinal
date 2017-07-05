@@ -100,7 +100,7 @@ public class AdjacencyMatrix {
 			for (int i = 0; i<d.u.size(); i++){
 				for(int j = i+1; j < d.v.size(); j++){
 					graph.makeEdge(d.u.get(i), d.v.get(j), 1);
-					graph.makeEdge(d.v.get(i), d.u.get(j), 1);
+					//graph.makeEdge(d.v.get(i), d.u.get(j), 1);
 				}
 			}
 			
@@ -119,7 +119,7 @@ public class AdjacencyMatrix {
 	public static void main(String args[]) {
 
 		//carregarSBBD();
-		carregarBenchmark("C:/Users/JMMCC/Downloads/Trabalho Final/Workspace/Dados/johnson8-4-4.txt");
+		carregarBenchmark("C:/Users/JMMCC/Downloads/Trabalho Final/Workspace/Dados/johnson8-2-4.txt");
 
 	}
 }

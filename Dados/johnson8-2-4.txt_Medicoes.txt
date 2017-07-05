@@ -1,0 +1,6 @@
+Time Graph: 2
+Time Clique: 48
+Memory Total 1: 257425408
+Memory Free 1: 254741016
+Memory Total 2: 257425408
+Memory Free 2: 254741016
