@@ -70,6 +70,22 @@ public class Clique {
 		cliqueSize = C.size();
 	}
 
+	Vertex findVertex(ArrayList<Vertex> vList, int v) {
+		// for (Vertex vertex : vList) {
+		// if(vertex.id == v){
+		// //System.gc();
+		// return vertex;
+		// }
+		// }
+		for (int i = 0; i < vList.size(); i++) {
+			if (vList.get(i).id == v) {
+				// System.gc();
+				return vList.get(i);
+			}
+		}
+		return null;
+	}
+
 	public String toString() {
 		String s = "Vertex = ";
 		for (int i = 0; i < this.cliqueVertex.size(); i++)
