@@ -3,43 +3,6 @@ import java.util.List;
 import java.util.Map;
 
 public class Graph {
-	public class Vertex {
-		public int id;
-		public int degree;
-		List<Integer> adj;
-
-		public Vertex(int id, int degree) {
-			this.id = id;
-			this.degree = degree;
-			this.adj = new ArrayList<>();
-		}
-
-		public void addAdj(int v) {
-			this.adj.add(v);
-		}
-
-		public boolean isAdj(int v) {
-			int i = 0;
-			while (i < adj.size()) {
-				if (adj.get(i) == v)
-					return true;
-				else
-					i++;
-			}
-			return false;
-		}
-	}
-
-	public class Edge {
-		public int u;
-		public int v;
-
-		public Edge(int u, int v) {
-			this.u = u;
-			this.v = v;
-		}
-	}
-
 	public ArrayList<Vertex> vertex;
 	public ArrayList<Edge> edge;
 	public int n;
