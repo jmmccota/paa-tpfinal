@@ -1,4 +1,4 @@
-package packUMCdimacs;
+package UMC;
 
 import java.util.ArrayList;
 

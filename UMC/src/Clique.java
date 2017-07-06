@@ -30,9 +30,11 @@ public class Clique {
 
 			ArrayList<Integer> newP = new ArrayList<Integer>();
 
-			for (int u : P)
-				if (g.vertex.get(v - 1).isAdj(u))
+			for (int u : P) {
+				Vertex vT = Graph.findVertex(g.vertex, v);
+				if (vT != null && vT.isAdj(u) && vT.id != u)
 					newP.add(u);
+			}
 
 			if (newP.isEmpty() && C.size() > cliqueSize)
 				saveSolution(C);
@@ -51,8 +53,9 @@ public class Clique {
 		ArrayList<Integer> P = new ArrayList<>();
 		ArrayList<Integer> C = new ArrayList<>();
 
-		for (int i = 0; i < g.n; i++)
+		for (int i = 0; i < g.n; i++){
 			P.add(g.vertex.get(i).id);
+		}
 
 		UpperBound ub = new UpperBound();
 		upperBound = ub.calcUpperBound(g, C, P);
@@ -70,21 +73,7 @@ public class Clique {
 		cliqueSize = C.size();
 	}
 
-	Vertex findVertex(ArrayList<Vertex> vList, int v) {
-		// for (Vertex vertex : vList) {
-		// if(vertex.id == v){
-		// //System.gc();
-		// return vertex;
-		// }
-		// }
-		for (int i = 0; i < vList.size(); i++) {
-			if (vList.get(i).id == v) {
-				// System.gc();
-				return vList.get(i);
-			}
-		}
-		return null;
-	}
+	
 
 	public String toString() {
 		String s = "Vertex = ";

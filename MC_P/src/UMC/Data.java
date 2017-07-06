@@ -1,4 +1,4 @@
-package packUMCdimacs;
+package UMC;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -18,9 +18,12 @@ public class Graph {
 			Integer key = entry.getKey();
 			ArrayList<Integer> value = entry.getValue();
 			for (Integer m : value) {
-				vertex.add(new Vertex(m, 0));
+				if(!vertex.contains(new Vertex(m, 0))){
+					vertex.add(new Vertex(m, 0));
+				}
 			}
 		}
+		
 	}
 
 	public void addEdge(Data d) {
@@ -41,7 +44,21 @@ public class Graph {
 			}
 		}
 	}
-
+	public static Vertex findVertex(ArrayList<Vertex> vList, int v) {
+		// for (Vertex vertex : vList) {
+		// if(vertex.id == v){
+		// //System.gc();
+		// return vertex;
+		// }
+		// }
+		for (int i = 0; i < vList.size(); i++) {
+			if (vList.get(i).id == v) {
+				// System.gc();
+				return vList.get(i);
+			}
+		}
+		return null;
+	}
 	@Override
 	public String toString() {
 		String s = "";

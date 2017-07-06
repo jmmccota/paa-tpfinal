@@ -9,7 +9,7 @@ public class MC {
         memoryTotal1 = Runtime.getRuntime().totalMemory();
         memoryFree1 = Runtime.getRuntime().freeMemory();
         
-        String FILE = "C:/Users/JMMCC/Downloads/Trabalho Final/Workspace/Dados/johnson8-2-4.txt";
+        String FILE = "C:/Users/JMMCC/Downloads/Trabalho Final/Workspace/Dados/hamming8-2.txt";
         Save save = new Save(FILE);
         Data data = new Data();
         Graph graph = new Graph();

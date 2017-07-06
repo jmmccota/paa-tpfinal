@@ -1,3 +1,0 @@
-Access: 1100
-Clique Size: 4
-Average Degree: 0.84

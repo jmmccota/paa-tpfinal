@@ -1,4 +1,0 @@
-Access: 530
-Clique Size: 4
-Upper Bound: 6
-Average Degree: 2.1

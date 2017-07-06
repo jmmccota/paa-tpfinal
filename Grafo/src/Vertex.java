@@ -26,4 +26,9 @@ public class Vertex {
 		}
 		return false;
 	}
+	@Override
+	public boolean equals(Object obj) {
+		Vertex v = (Vertex) obj;
+		return id == v.id;
+	}
 }
