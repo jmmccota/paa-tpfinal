@@ -6,11 +6,12 @@ public class Clique {
 	public ArrayList<Integer> cliqueVertex;
 	public ArrayList<Integer>[] colour;
 	public int access;
-
-	Clique() {
+	private String file;
+	public Clique(String file) {
 		this.cliqueSize = 0;
 		this.cliqueVertex = new ArrayList();
 		this.access = 0;
+		this.file = file;
 	}
 
 	void expand(Graph g, ArrayList<Integer> C, ArrayList<Integer> P) {
@@ -45,7 +46,7 @@ public class Clique {
 		}
 	}
 
-	public void search(Graph g, String file) {
+	public void search(Graph g) {
 		Save s = new Save(file);
 
 		ArrayList<Integer> P = new ArrayList();

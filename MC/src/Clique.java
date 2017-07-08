@@ -5,15 +5,16 @@ public class Clique {
 	public int cliqueSize;
 	public ArrayList<Integer> cliqueVertex;
 	public int access;
-
-	Clique() {
+	private String file;
+	public Clique(String file) {
 		this.cliqueSize = 0;
 		this.cliqueVertex = new ArrayList();
 		this.access = 0;
+		this.file = file;
 	}
 
-	public void search(Graph g, String FILE) {
-		Save s = new Save(FILE);
+	public void search(Graph g) {
+		Save s = new Save(file);
 
 		ArrayList<Integer> P = new ArrayList();
 		ArrayList<Integer> C = new ArrayList();

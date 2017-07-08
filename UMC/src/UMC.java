@@ -16,10 +16,10 @@ public class UMC {
 		memoryTotal1 = Runtime.getRuntime().totalMemory();
 		memoryFree1 = Runtime.getRuntime().freeMemory();
 
-		Save save = new Save(FILE);
+		Save save = new Save(FILE.replace("work_author.csv", "umc"));
 		Data data = new Data();
 		Graph graph = new Graph();
-		Clique clique = new Clique();
+		Clique clique = new Clique(FILE.replace("work_author.csv", "umc"));
 
 		data.readData(FILE);
 

@@ -16,10 +16,10 @@ public class LUMC {
 		memoryTotal1 = Runtime.getRuntime().totalMemory();
 		memoryFree1 = Runtime.getRuntime().freeMemory();
 
-		Save save = new Save(FILE);
+		Save save = new Save(FILE.replace("work_author.csv", "lumc"));
 		Data data = new Data();
 		Graph graph = new Graph();
-		Clique clique = new Clique(FILE);
+		Clique clique = new Clique(FILE.replace("work_author.csv", "lumc"));
 
 		data.readData(FILE);
 

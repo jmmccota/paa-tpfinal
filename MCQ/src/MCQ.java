@@ -54,10 +54,10 @@ public class MCQ {
 		memoryFree1 = Runtime.getRuntime().freeMemory();
 		String FILE = "C:/Users/JMMCC/Downloads/Trabalho Final/Workspace/work_author.csv";
 
-		Save save = new Save(FILE);
+		Save save = new Save(FILE.replace("work_author.csv", "mcq"));
 		Data data = new Data();
 		Graph graph = new Graph();
-		Clique clique = new Clique();
+		Clique clique = new Clique(FILE.replace("work_author.csv", "mcq"));
 
 		readData(FILE, data);
 
@@ -66,7 +66,7 @@ public class MCQ {
 		timeGraph = System.currentTimeMillis() - timeGraph;
 
 		timeClique = System.currentTimeMillis();
-		clique.search(graph, FILE);
+		clique.search(graph);
 		timeClique = System.currentTimeMillis() - timeClique;
 
 		memoryTotal2 = Runtime.getRuntime().totalMemory();

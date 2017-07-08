@@ -15,10 +15,10 @@ public class LMC {
 		memoryTotal1 = Runtime.getRuntime().totalMemory();
 		memoryFree1 = Runtime.getRuntime().freeMemory();
 
-		Save save = new Save(FILE);
+		Save save = new Save(FILE.replace("work_author.csv", "lmc"));
 		Data data = new Data();
 		Graph graph = new Graph();
-		Clique clique = new Clique();
+		Clique clique = new Clique(FILE.replace("work_author.csv", "lmc"));
 
 		data.readData(FILE);
 
@@ -27,7 +27,7 @@ public class LMC {
 		timeGraph = System.currentTimeMillis() - timeGraph;
 
 		timeClique = System.currentTimeMillis();
-		clique.search(graph, FILE);
+		clique.search(graph);
 		timeClique = System.currentTimeMillis() - timeClique;
 
 		memoryTotal2 = Runtime.getRuntime().totalMemory();

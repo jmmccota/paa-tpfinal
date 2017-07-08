@@ -10,9 +10,7 @@ public class Clique {
 
 	public Clique(String file) {
 		this.file = file;
-	}
-
-	public Clique() {
+	
 		this.cliqueSize = 0;
 		this.cliqueVertex = new ArrayList<>();
 		this.upperBound = 0;

@@ -60,11 +60,11 @@ public class MC {
 		// String FILE = "C:\\Users\\JMMCC\\Downloads\\Trabalho
 		// Final\\Dados\\hamming8-2.txt";
 
-		Save save = new Save(FILE);
+		Save save = new Save(FILE.replace("work_author.csv", "mc"));
 		Data data = new Data();
 
 		Graph graph = new Graph();
-		Clique clique = new Clique();
+		Clique clique = new Clique(FILE.replace("work_author.csv", "mc"));
 
 		readData(FILE, data);
 		// System.out.println(data.toString());
@@ -76,7 +76,7 @@ public class MC {
 		// System.out.println(graph.toString());
 
 		timeClique = System.currentTimeMillis();
-		clique.search(graph, FILE);
+		clique.search(graph);
 		timeClique = System.currentTimeMillis() - timeClique;
 
 		memoryTotal2 = Runtime.getRuntime().totalMemory();
