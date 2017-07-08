@@ -1,5 +1,0 @@
-Access: 68576
-Clique Size: 8
-Lower Bound: 1
-Upper Bound: 1
-Average Degree: 3.7997365
