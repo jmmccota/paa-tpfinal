@@ -44,17 +44,17 @@ public class Graph {
 			}
 		}
 	}
-	public static Vertex findVertex(ArrayList<Vertex> vList, int v) {
+	public Vertex findVertex(int v) {
 		// for (Vertex vertex : vList) {
 		// if(vertex.id == v){
 		// //System.gc();
 		// return vertex;
 		// }
 		// }
-		for (int i = 0; i < vList.size(); i++) {
-			if (vList.get(i).id == v) {
+		for (int i = 0; i < vertex.size(); i++) {
+			if (vertex.get(i).id == v) {
 				// System.gc();
-				return vList.get(i);
+				return vertex.get(i);
 			}
 		}
 		return null;

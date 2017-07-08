@@ -61,7 +61,7 @@ public class Clique {
 
 		for (int i = 0; i < P.size(); i++) {
 			int v = P.get(i);
-			Vertex vT = Graph.findVertex(g.vertex, v);
+			Vertex vT = g.findVertex(v);
 			if (vT != null && vT.isAdj(v) && vT.id != v){
 				if (vT.degree < this.lowerBound - 1) {
 					P.remove((Integer) v);

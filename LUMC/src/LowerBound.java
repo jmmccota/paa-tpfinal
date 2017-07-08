@@ -38,9 +38,12 @@ public class LowerBound {
 
 		ArrayList<Integer> newP = new ArrayList<Integer>();
 
-		for (int u : P)
-			if (g.vertex.get(v - 1).isAdj(u))
-				newP.add(u);
+		for (int u : P){
+			Vertex vT = g.findVertex(v);
+				if (vT != null && vT.isAdj(u) && vT.id != u){
+					newP.add(u);
+				}
+		}
 
 		if (newP.isEmpty() && C.size() > lower)
 			lower = C.size();

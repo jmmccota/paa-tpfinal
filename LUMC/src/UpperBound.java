@@ -32,7 +32,8 @@ public class UpperBound {
 	boolean containAdj(Graph g, int v, ArrayList<Integer> Cl) {
 		for (int i = 0; i < Cl.size(); i++) {
 			int u = Cl.get(i);
-			if (g.vertex.get(v - 1).isAdj(u))
+			Vertex vT = g.findVertex(v);
+			if (vT != null && vT.isAdj(u) && vT.id != u)
 				return true;
 		}
 		return false;

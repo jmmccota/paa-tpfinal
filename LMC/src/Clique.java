@@ -25,9 +25,12 @@ public class Clique {
 
 			ArrayList<Integer> newP = new ArrayList<Integer>();
 
-			for (int u : P)
-				if (g.vertex.get(v - 1).isAdj(u))
+			for (int u : P){
+				Vertex vT = g.findVertex(v);
+				if (vT != null && vT.isAdj(u) && vT.id != u){
 					newP.add(u);
+				}
+			}
 
 			if (newP.isEmpty() && C.size() > cliqueSize)
 				saveSolution(C);
@@ -54,8 +57,8 @@ public class Clique {
 
 		for (int i = 0; i < P.size(); i++) {
 			int v = P.get(i);
-
-			if (g.vertex.get(v - 1).degree < this.lowerBound - 1) {
+			Vertex vT = g.findVertex(v);
+			if (vT!=null && vT.degree < this.lowerBound - 1) {
 				P.remove(i);
 				i--;
 			}

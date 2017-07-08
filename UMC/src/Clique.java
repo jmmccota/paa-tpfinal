@@ -31,7 +31,7 @@ public class Clique {
 			ArrayList<Integer> newP = new ArrayList<Integer>();
 
 			for (int u : P) {
-				Vertex vT = Graph.findVertex(g.vertex, v);
+				Vertex vT = g.findVertex(v);
 				if (vT != null && vT.isAdj(u) && vT.id != u)
 					newP.add(u);
 			}
