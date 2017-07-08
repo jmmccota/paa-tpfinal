@@ -48,7 +48,9 @@ public class UpperBound {
 		int k = 0;
 
 		while (i < q && j < r) {
-			if (g.vertex.get(P.get(i) - 1).degree <= g.vertex.get(P.get(j) - 1).degree)
+			Vertex vT1 = g.findVertex(P.get(i));
+			Vertex vT2 = g.findVertex(P.get(j));
+			if (vT1 != null && vT2 != null && vT1.degree <= vT2.degree)
 				w.add(k++, P.get(i++));
 			else {
 				w.add(k++, P.get(j++));

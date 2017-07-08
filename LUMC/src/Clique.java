@@ -29,9 +29,11 @@ public class Clique {
 
 			ArrayList<Integer> newP = new ArrayList<Integer>();
 
-			for (int u : P)
-				if (g.vertex.get(v - 1).isAdj(u))
+			for (int u : P){
+				Vertex vT = g.findVertex(v);
+				if (vT!=null && vT.isAdj(u))
 					newP.add(u);
+			}
 
 			if (newP.isEmpty() && C.size() > cliqueSize)
 				saveSolution(C);

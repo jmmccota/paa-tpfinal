@@ -13,7 +13,8 @@ public class LowerBound {
 		int vertexMax = -1;
 
 		for (int i = 0; i < g.n; i++) {
-			if (g.vertex.get(i).degree > maxDegree) {
+			Vertex vT = g.findVertex(i);
+			if (vT != null && vT.degree > maxDegree) {
 				vertexMax = g.vertex.get(i).id;
 				maxDegree = g.vertex.get(i).degree;
 			}
@@ -21,9 +22,12 @@ public class LowerBound {
 
 		ArrayList<Integer> newP = new ArrayList<Integer>();
 
-		for (int u : P)
-			if (g.vertex.get(vertexMax - 1).isAdj(u))
+		for (int u : P) {
+			Vertex vT = g.findVertex(u);
+			if (vT != null && vT.isAdj(u) && vT.id != u) {
 				newP.add(u);
+			}
+		}
 		newP.add(vertexMax);
 
 		expand(g, C, newP, vertexMax);
@@ -38,11 +42,11 @@ public class LowerBound {
 
 		ArrayList<Integer> newP = new ArrayList<Integer>();
 
-		for (int u : P){
+		for (int u : P) {
 			Vertex vT = g.findVertex(v);
-				if (vT != null && vT.isAdj(u) && vT.id != u){
-					newP.add(u);
-				}
+			if (vT != null && vT.isAdj(u) && vT.id != u) {
+				newP.add(u);
+			}
 		}
 
 		if (newP.isEmpty() && C.size() > lower)
