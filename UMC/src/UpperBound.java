@@ -63,7 +63,6 @@ public class UpperBound {
 		for (i = p; i < r; ++i)
 			P.set(i, w.get(i - p));
 	}
-
 	public void Sort(Graph g, ArrayList<Integer> P, int p, int r) {
 		if (p < r - 1) {
 			int q = (p + r) / 2;
